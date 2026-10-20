@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">Stardew Companion</title>
+<desc id="desc">A forest green and parchment field-guide cover with the original Krobus portrait. Your farm. Your plans. Your next adventure.</desc>
+<rect width="1280" height="360" rx="16" fill="#172c28"/>
+<rect x="8" y="8" width="1264" height="344" rx="10" fill="#24473d" stroke="#94ab78" stroke-width="2"/>
+<path d="M10 294h74v-24h70v-22h86v22h96v-20h80v20h80v-18h82v-20h82v20h80v-30h80v-24h80v24h80v-30h78v30h80v-18h100v24h82v-24h80v28h75v66H10z" fill="#315c49"/>
+<path d="M10 316h96v-16h130v16h118v-20h132v20h144v-20h144v20h144v-20h144v20h208v36H10z" fill="#3e6a50"/>
+<g fill="#c5d6a5" opacity=".5"><rect x="1040" y="48" width="4" height="4"/><rect x="1158" y="96" width="6" height="6"/><rect x="1240" y="62" width="4" height="4"/><rect x="985" y="100" width="4" height="4"/></g>
+<rect x="52" y="58" width="254" height="254" rx="8" fill="#12251f"/>
+<rect x="44" y="50" width="254" height="254" rx="8" fill="#f2d49b" stroke="#d49a56" stroke-width="4"/>
+<path d="M60 80V66h18M264 66h18v14M60 274v14h18M264 288h18v-14" fill="none" stroke="#9f6d40" stroke-width="4"/>
+<g transform="translate(70 65) scale(3.15)" shape-rendering="crispEdges">  <path fill="#110026" d="M29 7h4v1H29zM28 8h1v1H28zM32 8h2v1H32zM28 9h1v1H28zM30 9h1v1H30zM32 9h2v1H32zM29 10h2v1H29zM32 10h2v1H32zM32 11h2v1H32zM31 12h3v1H31zM30 13h4v1H30zM30 14h4v1H30zM29 15h5v1H29zM28 16h8v1H28zM26 17h13v1H26zM24 18h17v1H24zM22 19h21v1H22zM21 20h23v1H21zM20 21h25v1H20zM19 22h27v1H19zM18 23h29v1H18zM17 24h31v1H17zM16 25h33v1H16zM15 26h34v1H15zM14 27h36v1H14zM14 28h36v1H14zM13 29h38v1H13zM13 30h38v1H13zM12 31h40v1H12zM12 32h40v1H12zM11 33h12v1H11zM26 33h13v1H26zM42 33h11v1H42zM11 34h11v1H11zM26 34h13v1H26zM43 34h10v1H43zM11 35h11v1H11zM26 35h13v1H26zM43 35h10v1H43zM10 36h12v1H10zM26 36h13v1H26zM43 36h11v1H43zM10 37h12v1H10zM26 37h13v1H26zM43 37h11v1H43zM10 38h12v1H10zM26 38h13v1H26zM43 38h11v1H43zM9 39h13v1H9zM26 39h13v1H26zM43 39h12v1H43zM9 40h13v1H9zM26 40h14v1H26zM42 40h13v1H42zM9 41h13v1H9zM25 41h30v1H25zM9 42h46v1H9zM8 43h48v1H8zM8 44h48v1H8zM8 45h48v1H8zM8 46h48v1H8zM8 47h48v1H8zM8 48h49v1H8zM7 49h25v1H7zM33 49h24v1H33zM7 50h24v1H7zM33 50h24v1H33zM7 51h19v1H7zM28 51h1v1H28zM33 51h1v1H33zM39 51h18v1H39zM7 52h19v1H7zM39 52h18v1H39zM7 53h19v1H7zM29 53h1v1H29zM31 53h1v1H31zM34 53h1v1H34zM36 53h1v1H36zM39 53h18v1H39zM7 54h18v1H7zM27 54h8v1H27zM36 54h21v1H36zM7 55h50v1H7zM7 56h50v1H7zM7 57h50v1H7zM7 58h50v1H7zM7 59h50v1H7zM7 60h50v1H7zM7 61h50v1H7zM7 62h50v1H7zM7 63h50v1H7z"/>
+  <path fill="#101b77" fill-opacity="0.48627451" d="M33 7h1v1H33zM28 10h1v1H28zM34 13h1v1H34zM29 14h1v1H29zM34 14h1v1H34zM34 15h1v1H34zM27 16h1v1H27zM36 16h1v1H36zM25 17h1v1H25zM39 17h1v1H39zM23 18h1v1H23zM41 18h1v1H41zM49 26h1v1H49zM13 28h1v1H13zM50 28h1v1H50zM12 30h1v1H12zM51 30h1v1H51zM11 32h1v1H11zM52 32h1v1H52zM25 33h1v1H25zM39 33h1v1H39zM22 34h1v1H22zM42 34h1v1H42zM10 35h1v1H10zM53 35h1v1H53zM9 38h1v1H9zM54 38h1v1H54zM42 39h1v1H42zM25 40h1v1H25zM40 40h2v1H40zM22 41h1v1H22zM8 42h1v1H8zM55 42h1v1H55zM56 46h1v1H56zM7 47h1v1H7zM56 47h1v1H56zM7 48h1v1H7zM32 49h1v1H32zM31 50h1v1H31zM26 51h1v1H26zM29 51h1v1H29zM34 51h1v1H34zM38 51h1v1H38zM36 52h1v1H36zM28 53h1v1H28zM30 53h1v1H30zM32 53h2v1H32zM38 53h1v1H38zM57 53h1v1H57zM6 54h1v1H6zM25 54h1v1H25zM35 54h1v1H35zM57 54h1v1H57zM6 55h1v1H6zM57 55h1v1H57zM6 56h1v1H6zM57 56h1v1H57zM6 57h1v1H6zM57 57h1v1H57zM6 58h1v1H6zM57 58h1v1H57zM6 59h1v1H6zM57 59h1v1H57zM6 60h1v1H6zM57 60h1v1H57zM6 61h1v1H6zM57 61h1v1H57zM6 62h1v1H6zM57 62h1v1H57zM6 63h1v1H6zM57 63h1v1H57z"/></g>
+<g font-family="ui-monospace, Consolas, 'Liberation Mono', monospace">
+<text x="350" y="75" fill="#c3d4a5" font-size="15" letter-spacing="3">YOUR OFFLINE FIELD GUIDE  /  V1.0.0</text>
+<text x="348" y="140" fill="#11241f" font-size="56" font-weight="700">Stardew Companion</text>
+<text x="345" y="136" fill="#ffe5ac" font-size="56" font-weight="700">Stardew Companion</text>
+<text x="350" y="186" fill="#e4e8d3" font-size="23">Your farm. Your plans. Your next adventure.</text>
+<path d="M350 211h824" stroke="#6c8b65" stroke-width="2"/>
+<text x="350" y="245" fill="#f3d9a7" font-size="17">TRACK PROGRESS</text><text x="565" y="245" fill="#a9c28a" font-size="17">+</text>
+<text x="610" y="245" fill="#f3d9a7" font-size="17">PLAN YOUR DAYS</text><text x="825" y="245" fill="#a9c28a" font-size="17">+</text>
+<text x="870" y="245" fill="#f3d9a7" font-size="17">DESIGN YOUR FARM</text>
+<text x="350" y="283" fill="#cbd9b4" font-size="14">LOCAL SAVES  ·  NO REQUIRED ACCOUNT  ·  NO TELEMETRY</text>
+</g>
+</svg>
