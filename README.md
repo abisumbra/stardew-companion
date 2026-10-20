@@ -266,29 +266,6 @@ Reference locations do not track a monster's live position or reconstruct genera
   <br /><sub>Museum donations, bundles, walnuts and journal objectives have their own evidence.</sub>
 </p>
 
-### 💾 16 · Save Manager
-
-- Discover saves automatically, add custom directories or import a full save file.
-- Watch for completed save writes with stable-read retries and clear synchronization errors.
-- Keep plans, preferences, designs and progress summaries in local SQLite storage.
-
-<p align="center">
-  <img src="docs/assets/save-manager.png" alt="Save Manager showing a synthetic farm, save selection, read-only synchronization and watched directories" width="100%" />
-  <br /><sub>Discover farms, switch saves and keep a clear view of synchronization.</sub>
-</p>
-
-### ⚙️ 17 · Settings, recovery & personalization
-
-- Export application backups, preview a selective restoration and undo the latest restore through its recovery record.
-- Recover individual sections after an error and export sanitized diagnostics.
-- Adjust text size, reduce motion and use visible keyboard focus/navigation.
-- Choose or reload the installed-game artwork source and review local application preferences.
-
-<p align="center">
-  <img src="docs/assets/settings.png" alt="Settings screen showing application backup controls, local preferences and display options" width="100%" />
-  <br /><sub>Back up application state, restore selected sections and customize the interface.</sub>
-</p>
-
 ## 🚀 Download & start farming
 
 | Package | Best for | Download |
