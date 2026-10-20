@@ -1,0 +1,15 @@
+export const encyclopediaCategories: Record<string, string> = {
+  all: 'Collections',
+  fishing: 'Fishing',
+  cooking: 'Cooking',
+  crafting: 'Crafting',
+  shipping: 'Shipping',
+  crops: 'Crops',
+  forage: 'Forage',
+  locations: 'Locations',
+  buildings: 'Buildings',
+  items: 'All items',
+  characters: 'Characters',
+  monsters: 'Monsters',
+  world: 'Animals',
+};

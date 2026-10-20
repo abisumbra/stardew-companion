@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Synthetic fixture. Contains no player save data. -->
+<SaveGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <player><name>Test Farmer</name><farmName>Test Farm</farmName><UniqueMultiplayerID>123</UniqueMultiplayerID>
+  <money>500</money><totalMoneyEarned>15000</totalMoneyEarned><houseUpgradeLevel>1</houseUpgradeLevel>
+  <farmingLevel>2</farmingLevel><miningLevel>1</miningLevel><combatLevel>0</combatLevel><foragingLevel>3</foragingLevel><fishingLevel>4</fishingLevel><luckLevel>0</luckLevel>
+  <cookingRecipes><item><key><string>Pumpkin Soup</string></key><value><int>0</int></value></item></cookingRecipes>
+  <recipesCooked><item><key><string>194</string></key><value><int>1</int></value></item></recipesCooked>
+  <craftingRecipes><item><key><string>Chest</string></key><value><int>0</int></value></item></craftingRecipes>
+  <fishCaught><item><key><string>128</string></key><value><ArrayOfInt><int>1</int><int>50</int></ArrayOfInt></value></item></fishCaught>
+  <basicShipped/><friendshipData><item><key><string>Robin</string></key><value><Friendship><Points>1750</Points><Status>Friendly</Status></Friendship></value></item></friendshipData>
+  <mailReceived><string>CF_Fair</string></mailReceived><eventsSeen/><achievements/>
+  <stats><Values><item><key><string>FishCaught</string></key><value><unsignedInt>10</unsignedInt></value></item></Values><specificMonstersKilled/></stats>
+  <chestConsumedLevels/><items><Item xsi:type="Object"><itemId>143</itemId><stack>2</stack><bigCraftable>false</bigCraftable></Item><Item xsi:type="Object"><itemId>236</itemId><stack>1</stack><bigCraftable>false</bigCraftable></Item><Item xsi:type="Object"><itemId>184</itemId><stack>1</stack><bigCraftable>false</bigCraftable></Item></items>
+ </player><uniqueIDForThisGame>unique-game</uniqueIDForThisGame><gameVersion>1.6.15</gameVersion><currentSeason>fall</currentSeason><dayOfMonth>8</dayOfMonth><year>2</year><whichFarm>MeadowlandsFarm</whichFarm><goldenWalnutsFound>0</goldenWalnutsFound><perfectionWaivers>2</perfectionWaivers>
+ <locations><GameLocation xsi:type="Farm"><name>Farm</name><buildings/><objects><item><value><Object xsi:type="Chest"><items><Item xsi:type="Object"><itemId>276</itemId><stack>1</stack></Item></items></Object></value></item></objects></GameLocation></locations><farmhands/>
+</SaveGame>

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Stardew Companion",
+  "version": "1.0.0",
+  "identifier": "com.stardewcompanion.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1420",
+    "beforeBuildCommand": "npm run bridge:build && npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Stardew Companion · Development Preview",
+        "width": 1380,
+        "height": 900,
+        "minWidth": 1000,
+        "minHeight": 680
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src ipc: http://ipc.localhost; object-src 'none'; base-uri 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "shortDescription": "An offline field guide for your Stardew Valley saves",
+    "longDescription": "Unofficial Stardew Valley companion with save analysis, an optional bundled game connection, farm and home design, saved storage maps, festival guides and optional public Steam achievement evidence.",
+    "resources": [
+      "../LICENSE",
+      "../THIRD_PARTY_NOTICES.md",
+      "../data/LICENSE.md",
+      "../data/PIXELIFY_SANS_OFL.txt",
+      "../research/CHECKUP_LICENSE",
+      "../research/TBIN_LICENSE",
+      "../research/HARMONY_LICENSE",
+      "../docs/CONNECTION_DESIGN_STORAGE.md",
+      "../docs/DESIGN_WORKSPACE.md"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

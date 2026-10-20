@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Companion.Bridge</AssemblyName>
+    <Version>1.0.0</Version>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="StartupHook.cs" />
+    <Compile Include="Runtime.cs" />
+    <Compile Include="Protocol.cs" />
+    <Compile Include="FarmTransfer.cs" />
+    <Compile Include="GoalText.cs" />
+    <EmbeddedResource Include="../src/locales/bridge-goals.json" Link="GoalText.json" LogicalName="Companion.Bridge.GoalText.json" />
+    <PackageReference Include="Lib.Harmony" Version="2.4.3" />
+  </ItemGroup>
+</Project>

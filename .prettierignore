@@ -1,0 +1,8 @@
+node_modules
+src-tauri/target
+dist
+research
+data/catalog.json
+package-lock.json
+test-results
+artifacts

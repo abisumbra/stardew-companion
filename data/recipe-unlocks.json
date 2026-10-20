@@ -1,0 +1,24 @@
+{
+  "verifiedAt": "2026-10-16",
+  "source": "wiki-crafting",
+  "events": {
+    "Ancient Seeds": "Donate the Ancient Seed artifact to Gunther and collect the recipe reward.",
+    "Tea Sapling": "See Caroline’s two-heart event; read her recipe letter the next day.",
+    "Wild Bait": "See Linus’s four-heart event.",
+    "Drum Block": "See Robin’s six-heart event.",
+    "Flute Block": "See Robin’s six-heart event.",
+    "Fairy Dust": "Finish Birdie’s The Pirate’s Wife quest.",
+    "Ostrich Incubator": "Finish Professor Snail’s fossil collections and island surveys.",
+    "Garden Pot": "Restore the Greenhouse and receive Evelyn’s visit."
+  },
+  "mastery": {
+    "Statue Of Blessings": "Farming",
+    "Statue Of The Dwarf King": "Mining",
+    "Heavy Furnace": "Mining",
+    "Mystic Tree Seed": "Foraging",
+    "Treasure Totem": "Foraging",
+    "Challenge Bait": "Fishing",
+    "Anvil": "Combat",
+    "Mini-Forge": "Combat"
+  }
+}

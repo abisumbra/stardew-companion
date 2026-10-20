@@ -1,0 +1,80 @@
+name: Build release packages
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  validate:
+    uses: ./.github/workflows/ci.yml
+  package:
+    needs: validate
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-24.04, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+      - if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libwebkit2gtk-4.1-dev build-essential curl wget file libxdo-dev libssl-dev librsvg2-dev libayatana-appindicator3-dev patchelf
+      - run: npm ci
+      - run: npm run check
+      - run: npm run bridge:build
+      - run: cargo test --manifest-path src-tauri/Cargo.toml --locked
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: v__VERSION__
+          releaseName: Stardew Companion v__VERSION__
+          releaseBody: 'Unsigned application packages. Review DEVELOPMENT_STATUS.md and THIRD_PARTY_NOTICES.md for feature limits, platform validation and licenses.'
+          releaseDraft: true
+          prerelease: false
+      - if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $setup = Get-ChildItem src-tauri/target/release/bundle/nsis/*-setup.exe | Select-Object -First 1
+          if (!$setup) { throw 'NSIS installer missing' }
+          ./scripts/test-windows-install.ps1 -Installer $setup.FullName
+      - if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force artifacts | Out-Null
+          Copy-Item -LiteralPath src-tauri/target/release/stardew-companion.exe -Destination artifacts/
+          Copy-Item -LiteralPath LICENSE,THIRD_PARTY_NOTICES.md -Destination artifacts/
+          Copy-Item -LiteralPath data/LICENSE.md -Destination artifacts/KNOWLEDGE_LICENSE.md
+          Copy-Item -LiteralPath data/PIXELIFY_SANS_OFL.txt -Destination artifacts/
+          Copy-Item -LiteralPath research/CHECKUP_LICENSE -Destination artifacts/
+          Copy-Item -LiteralPath research/TBIN_LICENSE -Destination artifacts/
+          Copy-Item -LiteralPath research/HARMONY_LICENSE -Destination artifacts/
+          Compress-Archive -Path artifacts/* -DestinationPath stardew-companion-windows-uninstalled-preview.zip
+          $expected = @('stardew-companion.exe','LICENSE','THIRD_PARTY_NOTICES.md','KNOWLEDGE_LICENSE.md','PIXELIFY_SANS_OFL.txt','CHECKUP_LICENSE','TBIN_LICENSE','HARMONY_LICENSE') | Sort-Object
+          Add-Type -AssemblyName System.IO.Compression.FileSystem
+          $zip = [System.IO.Compression.ZipFile]::OpenRead((Join-Path $PWD 'stardew-companion-windows-uninstalled-preview.zip'))
+          try {
+            $actual = @($zip.Entries.FullName | Sort-Object)
+            if (Compare-Object $expected $actual) { throw 'Unexpected package contents' }
+          } finally { $zip.Dispose() }
+          $version = (Get-Content package.json | ConvertFrom-Json).version
+          if ((Get-Item artifacts/stardew-companion.exe).VersionInfo.ProductVersion -notlike "$version*") { throw 'Executable version mismatch' }
+          Get-FileHash stardew-companion-windows-uninstalled-preview.zip -Algorithm SHA256 | ForEach-Object { "$($_.Hash)  stardew-companion-windows-uninstalled-preview.zip" } | Set-Content SHA256SUMS.txt
+      - if: runner.os == 'Windows'
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-uninstalled-preview
+          path: |
+            stardew-companion-windows-uninstalled-preview.zip
+            SHA256SUMS.txt

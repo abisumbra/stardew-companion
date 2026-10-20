@@ -1,0 +1,6656 @@
+{
+  "StardewValley.GameData.Movies.ConcessionItemData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "ItemTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.GenericSpawnItemDataWithCondition": {
+    "members": [
+      {
+        "name": "Condition",
+        "type": "String"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemData"
+  },
+  "StardewValley.GameData.WildTrees.WildTreeTextureData": {
+    "members": [
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Season",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.JukeboxTrackData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "Available",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "AlternativeTrackIds",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.HomeRenovations.RectGroup": {
+    "members": [
+      {
+        "name": "Rects",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.HomeRenovations.Rect"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Shirts.ShirtData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "DefaultColor",
+        "type": "String"
+      },
+      {
+        "name": "CanBeDyed",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsPrismatic",
+        "type": "Boolean"
+      },
+      {
+        "name": "HasSleeves",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanChooseDuringCharacterCustomization",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Weapons.WeaponProjectile": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Damage",
+        "type": "Int32"
+      },
+      {
+        "name": "Explodes",
+        "type": "Boolean"
+      },
+      {
+        "name": "Bounces",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxDistance",
+        "type": "Int32"
+      },
+      {
+        "name": "Velocity",
+        "type": "Int32"
+      },
+      {
+        "name": "RotationVelocity",
+        "type": "Int32"
+      },
+      {
+        "name": "TailLength",
+        "type": "Int32"
+      },
+      {
+        "name": "FireSound",
+        "type": "String"
+      },
+      {
+        "name": "BounceSound",
+        "type": "String"
+      },
+      {
+        "name": "CollisionSound",
+        "type": "String"
+      },
+      {
+        "name": "MinAngleOffset",
+        "type": "Single"
+      },
+      {
+        "name": "MaxAngleOffset",
+        "type": "Single"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "Item",
+        "type": "StardewValley.GameData.GenericSpawnItemData"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WorldMaps.WorldMapTooltipData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "KnownCondition",
+        "type": "String"
+      },
+      {
+        "name": "PixelArea",
+        "type": "Rectangle"
+      },
+      {
+        "name": "Text",
+        "type": "String"
+      },
+      {
+        "name": "LeftNeighbor",
+        "type": "String"
+      },
+      {
+        "name": "RightNeighbor",
+        "type": "String"
+      },
+      {
+        "name": "UpNeighbor",
+        "type": "String"
+      },
+      {
+        "name": "DownNeighbor",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Crafting.TailorItemRecipe": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "FirstItemTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "SecondItemTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "SpendRightItem",
+        "type": "Boolean"
+      },
+      {
+        "name": "CraftedItemId",
+        "type": "String"
+      },
+      {
+        "name": "CraftedItemIds",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CraftedItemIdFeminine",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Machines.MachineData": {
+    "members": [
+      {
+        "name": "HasInput",
+        "type": "Boolean"
+      },
+      {
+        "name": "HasOutput",
+        "type": "Boolean"
+      },
+      {
+        "name": "InteractMethod",
+        "type": "String"
+      },
+      {
+        "name": "OutputRules",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Machines.MachineOutputRule"]
+        }
+      },
+      {
+        "name": "AdditionalConsumedItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Machines.MachineItemAdditionalConsumedItems"]
+        }
+      },
+      {
+        "name": "PreventTimePass",
+        "type": {
+          "kind": "List",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "ReadyTimeModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "ReadyTimeModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "InvalidItemMessage",
+        "type": "String"
+      },
+      {
+        "name": "InvalidItemMessageCondition",
+        "type": "String"
+      },
+      {
+        "name": "InvalidCountMessage",
+        "type": "String"
+      },
+      {
+        "name": "LoadEffects",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Machines.MachineEffects"]
+        }
+      },
+      {
+        "name": "WorkingEffects",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Machines.MachineEffects"]
+        }
+      },
+      {
+        "name": "WorkingEffectChance",
+        "type": "Single"
+      },
+      {
+        "name": "AllowLoadWhenFull",
+        "type": "Boolean"
+      },
+      {
+        "name": "WobbleWhileWorking",
+        "type": "Boolean"
+      },
+      {
+        "name": "LightWhileWorking",
+        "type": "StardewValley.GameData.Machines.MachineLight"
+      },
+      {
+        "name": "ShowNextIndexWhileWorking",
+        "type": "Boolean"
+      },
+      {
+        "name": "ShowNextIndexWhenReady",
+        "type": "Boolean"
+      },
+      {
+        "name": "AllowFairyDust",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsIncubator",
+        "type": "Boolean"
+      },
+      {
+        "name": "OnlyCompleteOvernight",
+        "type": "Boolean"
+      },
+      {
+        "name": "ClearContentsOvernightCondition",
+        "type": "String"
+      },
+      {
+        "name": "StatsToIncrementWhenLoaded",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.StatIncrement"]
+        }
+      },
+      {
+        "name": "StatsToIncrementWhenHarvested",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.StatIncrement"]
+        }
+      },
+      {
+        "name": "ExperienceGainOnHarvest",
+        "type": "String"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.IncomingPhoneCallData": {
+    "members": [
+      {
+        "name": "TriggerCondition",
+        "type": "String"
+      },
+      {
+        "name": "RingCondition",
+        "type": "String"
+      },
+      {
+        "name": "FromNpc",
+        "type": "String"
+      },
+      {
+        "name": "FromPortrait",
+        "type": "String"
+      },
+      {
+        "name": "FromDisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Dialogue",
+        "type": "String"
+      },
+      {
+        "name": "IgnoreBaseChance",
+        "type": "Boolean"
+      },
+      {
+        "name": "SimpleDialogueSplitBy",
+        "type": "String"
+      },
+      {
+        "name": "MaxCalls",
+        "type": "Int32"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.CharacterData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "BirthSeason",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "BirthDay",
+        "type": "Int32"
+      },
+      {
+        "name": "HomeRegion",
+        "type": "String"
+      },
+      {
+        "name": "Language",
+        "type": "enum"
+      },
+      {
+        "name": "Gender",
+        "type": "enum"
+      },
+      {
+        "name": "Age",
+        "type": "enum"
+      },
+      {
+        "name": "Manner",
+        "type": "enum"
+      },
+      {
+        "name": "SocialAnxiety",
+        "type": "enum"
+      },
+      {
+        "name": "Optimism",
+        "type": "enum"
+      },
+      {
+        "name": "IsDarkSkinned",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanBeRomanced",
+        "type": "Boolean"
+      },
+      {
+        "name": "LoveInterest",
+        "type": "String"
+      },
+      {
+        "name": "Calendar",
+        "type": "enum"
+      },
+      {
+        "name": "SocialTab",
+        "type": "enum"
+      },
+      {
+        "name": "CanSocialize",
+        "type": "String"
+      },
+      {
+        "name": "CanReceiveGifts",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanGreetNearbyCharacters",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanCommentOnPurchasedShopItems",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "CanVisitIsland",
+        "type": "String"
+      },
+      {
+        "name": "IntroductionsQuest",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "ItemDeliveryQuests",
+        "type": "String"
+      },
+      {
+        "name": "PerfectionScore",
+        "type": "Boolean"
+      },
+      {
+        "name": "EndSlideShow",
+        "type": "enum"
+      },
+      {
+        "name": "SpouseAdopts",
+        "type": "String"
+      },
+      {
+        "name": "SpouseWantsChildren",
+        "type": "String"
+      },
+      {
+        "name": "SpouseGiftJealousy",
+        "type": "String"
+      },
+      {
+        "name": "SpouseGiftJealousyFriendshipChange",
+        "type": "Int32"
+      },
+      {
+        "name": "SpouseRoom",
+        "type": "StardewValley.GameData.Characters.CharacterSpouseRoomData"
+      },
+      {
+        "name": "SpousePatio",
+        "type": "StardewValley.GameData.Characters.CharacterSpousePatioData"
+      },
+      {
+        "name": "SpouseFloors",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "SpouseWallpapers",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "DumpsterDiveFriendshipEffect",
+        "type": "Int32"
+      },
+      {
+        "name": "DumpsterDiveEmote",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "FriendsAndFamily",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "FlowerDanceCanDance",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "WinterStarGifts",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.GenericSpawnItemDataWithCondition"]
+        }
+      },
+      {
+        "name": "WinterStarParticipant",
+        "type": "String"
+      },
+      {
+        "name": "UnlockConditions",
+        "type": "String"
+      },
+      {
+        "name": "SpawnIfMissing",
+        "type": "Boolean"
+      },
+      {
+        "name": "Home",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Characters.CharacterHomeData"]
+        }
+      },
+      {
+        "name": "TextureName",
+        "type": "String"
+      },
+      {
+        "name": "Appearance",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Characters.CharacterAppearanceData"]
+        }
+      },
+      {
+        "name": "MugShotSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "Size",
+        "type": "Point"
+      },
+      {
+        "name": "Breather",
+        "type": "Boolean"
+      },
+      {
+        "name": "BreathChestRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "BreathChestPosition",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Point"]
+        }
+      },
+      {
+        "name": "Shadow",
+        "type": "StardewValley.GameData.Characters.CharacterShadowData"
+      },
+      {
+        "name": "EmoteOffset",
+        "type": "Point"
+      },
+      {
+        "name": "ShakePortraits",
+        "type": {
+          "kind": "List",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "KissSpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "KissSpriteFacingRight",
+        "type": "Boolean"
+      },
+      {
+        "name": "HiddenProfileEmoteSound",
+        "type": "String"
+      },
+      {
+        "name": "HiddenProfileEmoteDuration",
+        "type": "Int32"
+      },
+      {
+        "name": "HiddenProfileEmoteStartFrame",
+        "type": "Int32"
+      },
+      {
+        "name": "HiddenProfileEmoteFrameCount",
+        "type": "Int32"
+      },
+      {
+        "name": "HiddenProfileEmoteFrameDuration",
+        "type": "Single"
+      },
+      {
+        "name": "FormerCharacterNames",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "FestivalVanillaActorIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.SpecialOrders.RandomizedElement": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "Values",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.SpecialOrders.RandomizedElementItem"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FarmAnimals.FarmAnimalSkin": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Weight",
+        "type": "Single"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "HarvestedTexture",
+        "type": "String"
+      },
+      {
+        "name": "BabyTexture",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Weddings.WeddingAttendeeData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Setup",
+        "type": "String"
+      },
+      {
+        "name": "Celebration",
+        "type": "String"
+      },
+      {
+        "name": "IgnoreUnlockConditions",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.LocationContexts.WeatherCondition": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Weather",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Minecarts.MinecartDestinationData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "BuyTicketMessage",
+        "type": "String"
+      },
+      {
+        "name": "TargetLocation",
+        "type": "String"
+      },
+      {
+        "name": "TargetTile",
+        "type": "Point"
+      },
+      {
+        "name": "TargetDirection",
+        "type": "String"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.SocialTabBehavior": {
+    "values": {
+      "0": "UnknownUntilMet",
+      "2": "HiddenUntilMet",
+      "1": "AlwaysShown",
+      "3": "HiddenAlways"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Pets.PetBehaviorChanges": {
+    "members": [
+      {
+        "name": "Weight",
+        "type": "Single"
+      },
+      {
+        "name": "OutsideOnly",
+        "type": "Boolean"
+      },
+      {
+        "name": "UpBehavior",
+        "type": "String"
+      },
+      {
+        "name": "DownBehavior",
+        "type": "String"
+      },
+      {
+        "name": "LeftBehavior",
+        "type": "String"
+      },
+      {
+        "name": "RightBehavior",
+        "type": "String"
+      },
+      {
+        "name": "Behavior",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Crops.CropData": {
+    "members": [
+      {
+        "name": "Seasons",
+        "type": {
+          "kind": "List",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "DaysInPhase",
+        "type": {
+          "kind": "List",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "RegrowDays",
+        "type": "Int32"
+      },
+      {
+        "name": "IsRaised",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsPaddyCrop",
+        "type": "Boolean"
+      },
+      {
+        "name": "NeedsWatering",
+        "type": "Boolean"
+      },
+      {
+        "name": "PlantableLocationRules",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.PlantableRule"]
+        }
+      },
+      {
+        "name": "HarvestItemId",
+        "type": "String"
+      },
+      {
+        "name": "HarvestMinStack",
+        "type": "Int32"
+      },
+      {
+        "name": "HarvestMaxStack",
+        "type": "Int32"
+      },
+      {
+        "name": "HarvestMaxIncreasePerFarmingLevel",
+        "type": "Single"
+      },
+      {
+        "name": "ExtraHarvestChance",
+        "type": "Double"
+      },
+      {
+        "name": "HarvestMethod",
+        "type": "enum"
+      },
+      {
+        "name": "HarvestMinQuality",
+        "type": "Int32"
+      },
+      {
+        "name": "HarvestMaxQuality",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "TintColors",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "CountForMonoculture",
+        "type": "Boolean"
+      },
+      {
+        "name": "CountForPolyculture",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.MakeoverOutfits.MakeoverOutfit": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "OutfitParts",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.MakeoverOutfits.MakeoverItem"]
+        }
+      },
+      {
+        "name": "Gender",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WildTrees.WildTreeTapItemData": {
+    "members": [
+      {
+        "name": "PreviousItemId",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "DaysUntilReady",
+        "type": "Int32"
+      },
+      {
+        "name": "DaysUntilReadyModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "DaysUntilReadyModifierMode",
+        "type": "enum"
+      }
+    ],
+    "base": "StardewValley.GameData.WildTrees.WildTreeItemData"
+  },
+  "StardewValley.GameData.AudioCueData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "FilePaths",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "Category",
+        "type": "String"
+      },
+      {
+        "name": "StreamedVorbis",
+        "type": "Boolean"
+      },
+      {
+        "name": "Looped",
+        "type": "Boolean"
+      },
+      {
+        "name": "UseReverb",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buildings.IndoorItemMove": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Source",
+        "type": "Point"
+      },
+      {
+        "name": "Destination",
+        "type": "Point"
+      },
+      {
+        "name": "Size",
+        "type": "Point"
+      },
+      {
+        "name": "UnlessItemId",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WorldMaps.WorldMapAreaPositionScrollTextZoneData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "TileArea",
+        "type": "Rectangle"
+      },
+      {
+        "name": "ScrollText",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.SpecialOrders.SpecialOrderData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "Requester",
+        "type": "String"
+      },
+      {
+        "name": "Duration",
+        "type": "enum"
+      },
+      {
+        "name": "Repeatable",
+        "type": "Boolean"
+      },
+      {
+        "name": "RequiredTags",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "OrderType",
+        "type": "String"
+      },
+      {
+        "name": "SpecialRule",
+        "type": "String"
+      },
+      {
+        "name": "Text",
+        "type": "String"
+      },
+      {
+        "name": "ItemToRemoveOnEnd",
+        "type": "String"
+      },
+      {
+        "name": "MailToRemoveOnEnd",
+        "type": "String"
+      },
+      {
+        "name": "RandomizedElements",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.SpecialOrders.RandomizedElement"]
+        }
+      },
+      {
+        "name": "Objectives",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.SpecialOrders.SpecialOrderObjectiveData"]
+        }
+      },
+      {
+        "name": "Rewards",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.SpecialOrders.SpecialOrderRewardData"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.SpecialOrders.SpecialOrderObjectiveData": {
+    "members": [
+      {
+        "name": "Type",
+        "type": "String"
+      },
+      {
+        "name": "Text",
+        "type": "String"
+      },
+      {
+        "name": "RequiredCount",
+        "type": "String"
+      },
+      {
+        "name": "Data",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.HomeRenovations.RenovationValue": {
+    "members": [
+      {
+        "name": "Type",
+        "type": "String"
+      },
+      {
+        "name": "Key",
+        "type": "String"
+      },
+      {
+        "name": "Value",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buildings.BuildingChestType": {
+    "values": {
+      "0": "Chest",
+      "2": "Load",
+      "1": "Collect"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Buildings.BuildingTileProperty": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "Value",
+        "type": "String"
+      },
+      {
+        "name": "Layer",
+        "type": "String"
+      },
+      {
+        "name": "TileArea",
+        "type": "Rectangle"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WildTrees.WildTreeData": {
+    "members": [
+      {
+        "name": "Textures",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WildTrees.WildTreeTextureData"]
+        }
+      },
+      {
+        "name": "SeedItemId",
+        "type": "String"
+      },
+      {
+        "name": "SeedPlantable",
+        "type": "Boolean"
+      },
+      {
+        "name": "GrowthChance",
+        "type": "Single"
+      },
+      {
+        "name": "FertilizedGrowthChance",
+        "type": "Single"
+      },
+      {
+        "name": "SeedSpreadChance",
+        "type": "Single"
+      },
+      {
+        "name": "SeedOnShakeChance",
+        "type": "Single"
+      },
+      {
+        "name": "SeedOnChopChance",
+        "type": "Single"
+      },
+      {
+        "name": "DropWoodOnChop",
+        "type": "Boolean"
+      },
+      {
+        "name": "DropHardwoodOnLumberChop",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsLeafy",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsLeafyInWinter",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsLeafyInFall",
+        "type": "Boolean"
+      },
+      {
+        "name": "PlantableLocationRules",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.PlantableRule"]
+        }
+      },
+      {
+        "name": "GrowsInWinter",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsStumpDuringWinter",
+        "type": "Boolean"
+      },
+      {
+        "name": "AllowWoodpeckers",
+        "type": "Boolean"
+      },
+      {
+        "name": "UseAlternateSpriteWhenNotShaken",
+        "type": "Boolean"
+      },
+      {
+        "name": "UseAlternateSpriteWhenSeedReady",
+        "type": "Boolean"
+      },
+      {
+        "name": "DebrisColor",
+        "type": "String"
+      },
+      {
+        "name": "SeedDropItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WildTrees.WildTreeSeedDropItemData"]
+        }
+      },
+      {
+        "name": "ChopItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WildTrees.WildTreeChopItemData"]
+        }
+      },
+      {
+        "name": "TapItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WildTrees.WildTreeTapItemData"]
+        }
+      },
+      {
+        "name": "ShakeItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WildTrees.WildTreeItemData"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "GrowsMoss",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FloorsAndPaths.FloorPathShadowType": {
+    "values": {
+      "0": "None",
+      "2": "Contoured",
+      "1": "Square"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Characters.CharacterHomeData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Location",
+        "type": "String"
+      },
+      {
+        "name": "Tile",
+        "type": "Point"
+      },
+      {
+        "name": "Direction",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Shops.LimitedStockMode": {
+    "values": {
+      "0": "Global",
+      "2": "None",
+      "1": "Player"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Buildings.BuildingActionTile": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Tile",
+        "type": "Point"
+      },
+      {
+        "name": "Action",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.PlantableRule": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "PlantedIn",
+        "type": "enum"
+      },
+      {
+        "name": "Result",
+        "type": "enum"
+      },
+      {
+        "name": "DeniedMessage",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Machines.MachineOutputRule": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Triggers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Machines.MachineOutputTriggerRule"]
+        }
+      },
+      {
+        "name": "UseFirstValidOutput",
+        "type": "Boolean"
+      },
+      {
+        "name": "OutputItem",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Machines.MachineItemOutput"]
+        }
+      },
+      {
+        "name": "MinutesUntilReady",
+        "type": "Int32"
+      },
+      {
+        "name": "DaysUntilReady",
+        "type": "Int32"
+      },
+      {
+        "name": "InvalidCountMessage",
+        "type": "String"
+      },
+      {
+        "name": "RecalculateOnCollect",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Shops.ShopThemeData": {
+    "members": [
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "WindowBorderTexture",
+        "type": "String"
+      },
+      {
+        "name": "WindowBorderSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "PortraitBackgroundTexture",
+        "type": "String"
+      },
+      {
+        "name": "PortraitBackgroundSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "DialogueBackgroundTexture",
+        "type": "String"
+      },
+      {
+        "name": "DialogueBackgroundSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "DialogueColor",
+        "type": "String"
+      },
+      {
+        "name": "DialogueShadowColor",
+        "type": "String"
+      },
+      {
+        "name": "ItemRowBackgroundTexture",
+        "type": "String"
+      },
+      {
+        "name": "ItemRowBackgroundSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "ItemRowBackgroundHoverColor",
+        "type": "String"
+      },
+      {
+        "name": "ItemRowTextColor",
+        "type": "String"
+      },
+      {
+        "name": "ItemIconBackgroundTexture",
+        "type": "String"
+      },
+      {
+        "name": "ItemIconBackgroundSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "ScrollUpTexture",
+        "type": "String"
+      },
+      {
+        "name": "ScrollUpSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "ScrollDownTexture",
+        "type": "String"
+      },
+      {
+        "name": "ScrollDownSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "ScrollBarFrontTexture",
+        "type": "String"
+      },
+      {
+        "name": "ScrollBarFrontSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "ScrollBarBackTexture",
+        "type": "String"
+      },
+      {
+        "name": "ScrollBarBackSourceRect",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.ModLanguage": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "LanguageCode",
+        "type": "String"
+      },
+      {
+        "name": "ButtonTexture",
+        "type": "String"
+      },
+      {
+        "name": "UseLatinFont",
+        "type": "Boolean"
+      },
+      {
+        "name": "FontFile",
+        "type": "String"
+      },
+      {
+        "name": "FontPixelZoom",
+        "type": "Single"
+      },
+      {
+        "name": "FontApplyYOffset",
+        "type": "Boolean"
+      },
+      {
+        "name": "SmallFontLineSpacing",
+        "type": "Int32"
+      },
+      {
+        "name": "UseGenderedCharacterTranslations",
+        "type": "Boolean"
+      },
+      {
+        "name": "NumberComma",
+        "type": "String"
+      },
+      {
+        "name": "TimeFormat",
+        "type": "String"
+      },
+      {
+        "name": "ClockTimeFormat",
+        "type": "String"
+      },
+      {
+        "name": "ClockDateFormat",
+        "type": "String"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FarmAnimals.FarmAnimalData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "House",
+        "type": "String"
+      },
+      {
+        "name": "Gender",
+        "type": "enum"
+      },
+      {
+        "name": "PurchasePrice",
+        "type": "Int32"
+      },
+      {
+        "name": "SellPrice",
+        "type": "Int32"
+      },
+      {
+        "name": "ShopTexture",
+        "type": "String"
+      },
+      {
+        "name": "ShopSourceRect",
+        "type": "Rectangle"
+      },
+      {
+        "name": "ShopDisplayName",
+        "type": "String"
+      },
+      {
+        "name": "ShopDescription",
+        "type": "String"
+      },
+      {
+        "name": "ShopMissingBuildingDescription",
+        "type": "String"
+      },
+      {
+        "name": "RequiredBuilding",
+        "type": "String"
+      },
+      {
+        "name": "UnlockCondition",
+        "type": "String"
+      },
+      {
+        "name": "AlternatePurchaseTypes",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.FarmAnimals.AlternatePurchaseAnimals"]
+        }
+      },
+      {
+        "name": "EggItemIds",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "IncubationTime",
+        "type": "Int32"
+      },
+      {
+        "name": "IncubatorParentSheetOffset",
+        "type": "Int32"
+      },
+      {
+        "name": "BirthText",
+        "type": "String"
+      },
+      {
+        "name": "DaysToMature",
+        "type": "Int32"
+      },
+      {
+        "name": "CanGetPregnant",
+        "type": "Boolean"
+      },
+      {
+        "name": "DaysToProduce",
+        "type": "Int32"
+      },
+      {
+        "name": "HarvestType",
+        "type": "enum"
+      },
+      {
+        "name": "HarvestTool",
+        "type": "String"
+      },
+      {
+        "name": "ProduceItemIds",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.FarmAnimals.FarmAnimalProduce"]
+        }
+      },
+      {
+        "name": "DeluxeProduceItemIds",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.FarmAnimals.FarmAnimalProduce"]
+        }
+      },
+      {
+        "name": "ProduceOnMature",
+        "type": "Boolean"
+      },
+      {
+        "name": "FriendshipForFasterProduce",
+        "type": "Int32"
+      },
+      {
+        "name": "DeluxeProduceMinimumFriendship",
+        "type": "Int32"
+      },
+      {
+        "name": "DeluxeProduceCareDivisor",
+        "type": "Single"
+      },
+      {
+        "name": "DeluxeProduceLuckMultiplier",
+        "type": "Single"
+      },
+      {
+        "name": "CanEatGoldenCrackers",
+        "type": "Boolean"
+      },
+      {
+        "name": "ProfessionForHappinessBoost",
+        "type": "Int32"
+      },
+      {
+        "name": "ProfessionForQualityBoost",
+        "type": "Int32"
+      },
+      {
+        "name": "ProfessionForFasterProduce",
+        "type": "Int32"
+      },
+      {
+        "name": "Sound",
+        "type": "String"
+      },
+      {
+        "name": "BabySound",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "HarvestedTexture",
+        "type": "String"
+      },
+      {
+        "name": "BabyTexture",
+        "type": "String"
+      },
+      {
+        "name": "UseFlippedRightForLeft",
+        "type": "Boolean"
+      },
+      {
+        "name": "SpriteWidth",
+        "type": "Int32"
+      },
+      {
+        "name": "SpriteHeight",
+        "type": "Int32"
+      },
+      {
+        "name": "UseDoubleUniqueAnimationFrames",
+        "type": "Boolean"
+      },
+      {
+        "name": "SleepFrame",
+        "type": "Int32"
+      },
+      {
+        "name": "EmoteOffset",
+        "type": "Point"
+      },
+      {
+        "name": "SwimOffset",
+        "type": "Point"
+      },
+      {
+        "name": "Skins",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.FarmAnimals.FarmAnimalSkin"]
+        }
+      },
+      {
+        "name": "ShadowWhenBabySwims",
+        "type": "StardewValley.GameData.FarmAnimals.FarmAnimalShadowData"
+      },
+      {
+        "name": "ShadowWhenBaby",
+        "type": "StardewValley.GameData.FarmAnimals.FarmAnimalShadowData"
+      },
+      {
+        "name": "ShadowWhenAdultSwims",
+        "type": "StardewValley.GameData.FarmAnimals.FarmAnimalShadowData"
+      },
+      {
+        "name": "ShadowWhenAdult",
+        "type": "StardewValley.GameData.FarmAnimals.FarmAnimalShadowData"
+      },
+      {
+        "name": "Shadow",
+        "type": "StardewValley.GameData.FarmAnimals.FarmAnimalShadowData"
+      },
+      {
+        "name": "CanSwim",
+        "type": "Boolean"
+      },
+      {
+        "name": "BabiesFollowAdults",
+        "type": "Boolean"
+      },
+      {
+        "name": "GrassEatAmount",
+        "type": "Int32"
+      },
+      {
+        "name": "HappinessDrain",
+        "type": "Int32"
+      },
+      {
+        "name": "UpDownPetHitboxTileSize",
+        "type": "Vector2"
+      },
+      {
+        "name": "LeftRightPetHitboxTileSize",
+        "type": "Vector2"
+      },
+      {
+        "name": "BabyUpDownPetHitboxTileSize",
+        "type": "Vector2"
+      },
+      {
+        "name": "BabyLeftRightPetHitboxTileSize",
+        "type": "Vector2"
+      },
+      {
+        "name": "StatToIncrementOnProduce",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.StatIncrement"]
+        }
+      },
+      {
+        "name": "ShowInSummitCredits",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Objects.ObjectBuffData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "BuffId",
+        "type": "String"
+      },
+      {
+        "name": "IconTexture",
+        "type": "String"
+      },
+      {
+        "name": "IconSpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "Duration",
+        "type": "Int32"
+      },
+      {
+        "name": "IsDebuff",
+        "type": "Boolean"
+      },
+      {
+        "name": "GlowColor",
+        "type": "String"
+      },
+      {
+        "name": "CustomAttributes",
+        "type": "StardewValley.GameData.Buffs.BuffAttributesData"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Movies.ConcessionTaste": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "LovedTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "LikedTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "DislikedTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Shops.ShopData": {
+    "members": [
+      {
+        "name": "Currency",
+        "type": "Int32"
+      },
+      {
+        "name": "StackSizeVisibility",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "OpenSound",
+        "type": "String"
+      },
+      {
+        "name": "PurchaseSound",
+        "type": "String"
+      },
+      {
+        "name": "PurchaseRepeatSound",
+        "type": "String"
+      },
+      {
+        "name": "ApplyProfitMargins",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "PriceModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "PriceModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "Owners",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Shops.ShopOwnerData"]
+        }
+      },
+      {
+        "name": "VisualTheme",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Shops.ShopThemeData"]
+        }
+      },
+      {
+        "name": "SalableItemTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "Items",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Shops.ShopItemData"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buildings.BuildingItemConversion": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "RequiredTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "RequiredCount",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxDailyConversions",
+        "type": "Int32"
+      },
+      {
+        "name": "SourceChest",
+        "type": "String"
+      },
+      {
+        "name": "DestinationChest",
+        "type": "String"
+      },
+      {
+        "name": "ProducedItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.GenericSpawnItemDataWithCondition"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.ModWallpaperOrFlooring": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "IsFlooring",
+        "type": "Boolean"
+      },
+      {
+        "name": "Count",
+        "type": "Int32"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Pets.PetBreed": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "IconTexture",
+        "type": "String"
+      },
+      {
+        "name": "IconSourceRect",
+        "type": "Rectangle"
+      },
+      {
+        "name": "CanBeChosenAtStart",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanBeAdoptedFromMarnie",
+        "type": "Boolean"
+      },
+      {
+        "name": "AdoptionPrice",
+        "type": "Int32"
+      },
+      {
+        "name": "BarkOverride",
+        "type": "String"
+      },
+      {
+        "name": "VoicePitch",
+        "type": "Single"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Shops.ShopOwnerData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Portrait",
+        "type": "String"
+      },
+      {
+        "name": "Dialogues",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Shops.ShopDialogueData"]
+        }
+      },
+      {
+        "name": "RandomizeDialogueOnOpen",
+        "type": "Boolean"
+      },
+      {
+        "name": "ClosedMessage",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buffs.BuffAttributesData": {
+    "members": [
+      {
+        "name": "CombatLevel",
+        "type": "Single"
+      },
+      {
+        "name": "FarmingLevel",
+        "type": "Single"
+      },
+      {
+        "name": "FishingLevel",
+        "type": "Single"
+      },
+      {
+        "name": "MiningLevel",
+        "type": "Single"
+      },
+      {
+        "name": "LuckLevel",
+        "type": "Single"
+      },
+      {
+        "name": "ForagingLevel",
+        "type": "Single"
+      },
+      {
+        "name": "MaxStamina",
+        "type": "Single"
+      },
+      {
+        "name": "MagneticRadius",
+        "type": "Single"
+      },
+      {
+        "name": "Speed",
+        "type": "Single"
+      },
+      {
+        "name": "Defense",
+        "type": "Single"
+      },
+      {
+        "name": "Attack",
+        "type": "Single"
+      },
+      {
+        "name": "AttackMultiplier",
+        "type": "Single"
+      },
+      {
+        "name": "Immunity",
+        "type": "Single"
+      },
+      {
+        "name": "KnockbackMultiplier",
+        "type": "Single"
+      },
+      {
+        "name": "WeaponSpeedMultiplier",
+        "type": "Single"
+      },
+      {
+        "name": "CriticalChanceMultiplier",
+        "type": "Single"
+      },
+      {
+        "name": "CriticalPowerMultiplier",
+        "type": "Single"
+      },
+      {
+        "name": "WeaponPrecisionMultiplier",
+        "type": "Single"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.NpcOptimism": {
+    "values": {
+      "0": "Positive",
+      "2": "Neutral",
+      "1": "Negative"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Machines.MachineItemAdditionalConsumedItems": {
+    "members": [
+      {
+        "name": "ItemId",
+        "type": "String"
+      },
+      {
+        "name": "RequiredCount",
+        "type": "Int32"
+      },
+      {
+        "name": "InvalidCountMessage",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buildings.BuildingChest": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Type",
+        "type": "enum"
+      },
+      {
+        "name": "Sound",
+        "type": "String"
+      },
+      {
+        "name": "InvalidItemMessage",
+        "type": "String"
+      },
+      {
+        "name": "InvalidItemMessageCondition",
+        "type": "String"
+      },
+      {
+        "name": "InvalidCountMessage",
+        "type": "String"
+      },
+      {
+        "name": "ChestFullMessage",
+        "type": "String"
+      },
+      {
+        "name": "DisplayTile",
+        "type": "Vector2"
+      },
+      {
+        "name": "DisplayHeight",
+        "type": "Single"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FloorsAndPaths.FloorPathConnectType": {
+    "values": {
+      "0": "Default",
+      "2": "CornerDecorated",
+      "1": "Path",
+      "3": "Random"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.GarbageCans.GarbageCanItemData": {
+    "members": [
+      {
+        "name": "IgnoreBaseChance",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsMegaSuccess",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsDoubleMegaSuccess",
+        "type": "Boolean"
+      },
+      {
+        "name": "AddToInventoryDirectly",
+        "type": "Boolean"
+      },
+      {
+        "name": "CreateMultipleDebris",
+        "type": "Boolean"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.FarmAnimals.FarmAnimalShadowData": {
+    "members": [
+      {
+        "name": "Visible",
+        "type": "Boolean"
+      },
+      {
+        "name": "Offset",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Point"]
+        }
+      },
+      {
+        "name": "Scale",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Single"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.HomeRenovations.HomeRenovation": {
+    "members": [
+      {
+        "name": "TextStrings",
+        "type": "String"
+      },
+      {
+        "name": "AnimationType",
+        "type": "String"
+      },
+      {
+        "name": "CheckForObstructions",
+        "type": "Boolean"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "RoomId",
+        "type": "String"
+      },
+      {
+        "name": "Requirements",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.HomeRenovations.RenovationValue"]
+        }
+      },
+      {
+        "name": "RenovateActions",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.HomeRenovations.RenovationValue"]
+        }
+      },
+      {
+        "name": "RectGroups",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.HomeRenovations.RectGroup"]
+        }
+      },
+      {
+        "name": "SpecialRect",
+        "type": "String"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Bundles.BundleSetData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Bundles",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Bundles.BundleData"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WorldMaps.WorldMapAreaPositionData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "LocationContext",
+        "type": "String"
+      },
+      {
+        "name": "LocationName",
+        "type": "String"
+      },
+      {
+        "name": "LocationNames",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "TileArea",
+        "type": "Rectangle"
+      },
+      {
+        "name": "ExtendedTileArea",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "MapPixelArea",
+        "type": "Rectangle"
+      },
+      {
+        "name": "ScrollText",
+        "type": "String"
+      },
+      {
+        "name": "ScrollTextZones",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WorldMaps.WorldMapAreaPositionScrollTextZoneData"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Movies.MovieScene": {
+    "members": [
+      {
+        "name": "Image",
+        "type": "Int32"
+      },
+      {
+        "name": "Music",
+        "type": "String"
+      },
+      {
+        "name": "Sound",
+        "type": "String"
+      },
+      {
+        "name": "MessageDelay",
+        "type": "Int32"
+      },
+      {
+        "name": "Script",
+        "type": "String"
+      },
+      {
+        "name": "Text",
+        "type": "String"
+      },
+      {
+        "name": "Shake",
+        "type": "Boolean"
+      },
+      {
+        "name": "ResponsePoint",
+        "type": "String"
+      },
+      {
+        "name": "Id",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WorldMaps.WorldMapAreaData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "PixelArea",
+        "type": "Rectangle"
+      },
+      {
+        "name": "ScrollText",
+        "type": "String"
+      },
+      {
+        "name": "Textures",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WorldMaps.WorldMapTextureData"]
+        }
+      },
+      {
+        "name": "Tooltips",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WorldMaps.WorldMapTooltipData"]
+        }
+      },
+      {
+        "name": "WorldPositions",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WorldMaps.WorldMapAreaPositionData"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.MusicContext": {
+    "values": {
+      "0": "Default",
+      "6": "MAX",
+      "1": "SubLocation",
+      "5": "ImportantSplitScreenMusic",
+      "2": "MusicPlayer",
+      "4": "MiniGame",
+      "3": "Event"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Machines.MachineSoundData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Delay",
+        "type": "Int32"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Tools.ToolUpgradeData": {
+    "members": [
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "RequireToolId",
+        "type": "String"
+      },
+      {
+        "name": "TradeItemId",
+        "type": "String"
+      },
+      {
+        "name": "TradeItemAmount",
+        "type": "Int32"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FruitTrees.FruitTreeData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Seasons",
+        "type": {
+          "kind": "List",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "Fruit",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.FruitTrees.FruitTreeFruitData"]
+        }
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "TextureSpriteRow",
+        "type": "Int32"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "PlantableLocationRules",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.PlantableRule"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Locations.SpawnForageData": {
+    "members": [
+      {
+        "name": "Chance",
+        "type": "Double"
+      },
+      {
+        "name": "Season",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.Objects.ObjectGeodeDropData": {
+    "members": [
+      {
+        "name": "Chance",
+        "type": "Double"
+      },
+      {
+        "name": "SetFlagOnPickup",
+        "type": "String"
+      },
+      {
+        "name": "Precedence",
+        "type": "Int32"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.Movies.CharacterResponse": {
+    "members": [
+      {
+        "name": "ResponsePoint",
+        "type": "String"
+      },
+      {
+        "name": "Script",
+        "type": "String"
+      },
+      {
+        "name": "Text",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Bundles.RandomBundleData": {
+    "members": [
+      {
+        "name": "AreaName",
+        "type": "String"
+      },
+      {
+        "name": "Keys",
+        "type": "String"
+      },
+      {
+        "name": "BundleSets",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Bundles.BundleSetData"]
+        }
+      },
+      {
+        "name": "Bundles",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Bundles.BundleData"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Pets.PetGift": {
+    "members": [
+      {
+        "name": "MinimumFriendshipThreshold",
+        "type": "Int32"
+      },
+      {
+        "name": "Weight",
+        "type": "Single"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.Machines.MachineItemOutput": {
+    "members": [
+      {
+        "name": "OutputMethod",
+        "type": "String"
+      },
+      {
+        "name": "CopyColor",
+        "type": "Boolean"
+      },
+      {
+        "name": "CopyPrice",
+        "type": "Boolean"
+      },
+      {
+        "name": "CopyQuality",
+        "type": "Boolean"
+      },
+      {
+        "name": "PreserveType",
+        "type": "String"
+      },
+      {
+        "name": "PreserveId",
+        "type": "String"
+      },
+      {
+        "name": "IncrementMachineParentSheetIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "PriceModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "PriceModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "CustomData",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.FarmAnimals.FarmAnimalProduce": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "MinimumFriendship",
+        "type": "Int32"
+      },
+      {
+        "name": "ItemId",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FarmAnimals.FarmAnimalHarvestType": {
+    "values": {
+      "0": "DropOvernight",
+      "2": "DigUp",
+      "1": "HarvestWithTool"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.Gender": {
+    "values": {
+      "0": "Male",
+      "2": "Undefined",
+      "1": "Female"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.FishPonds.FishPondData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "RequiredTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "Precedence",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxPopulation",
+        "type": "Int32"
+      },
+      {
+        "name": "SpawnTime",
+        "type": "Int32"
+      },
+      {
+        "name": "BaseMinProduceChance",
+        "type": "Single"
+      },
+      {
+        "name": "BaseMaxProduceChance",
+        "type": "Single"
+      },
+      {
+        "name": "WaterColor",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.FishPonds.FishPondWaterColor"]
+        }
+      },
+      {
+        "name": "ProducedItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.FishPonds.FishPondReward"]
+        }
+      },
+      {
+        "name": "PopulationGates",
+        "type": {
+          "kind": "Dictionary",
+          "args": [
+            "Int32",
+            {
+              "kind": "List",
+              "args": ["String"]
+            }
+          ]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WildTrees.WildTreeSeedDropItemData": {
+    "members": [
+      {
+        "name": "ContinueOnDrop",
+        "type": "Boolean"
+      }
+    ],
+    "base": "StardewValley.GameData.WildTrees.WildTreeItemData"
+  },
+  "StardewValley.GameData.Powers.PowersData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "TexturePath",
+        "type": "String"
+      },
+      {
+        "name": "TexturePosition",
+        "type": "Point"
+      },
+      {
+        "name": "UnlockedCondition",
+        "type": "String"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "Object"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Locations.ArtifactSpotDropData": {
+    "members": [
+      {
+        "name": "Chance",
+        "type": "Double"
+      },
+      {
+        "name": "ApplyGenerousEnchantment",
+        "type": "Boolean"
+      },
+      {
+        "name": "OneDebrisPerDrop",
+        "type": "Boolean"
+      },
+      {
+        "name": "Precedence",
+        "type": "Int32"
+      },
+      {
+        "name": "ContinueOnDrop",
+        "type": "Boolean"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.FarmAnimals.AlternatePurchaseAnimals": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "AnimalIds",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Museum.MuseumRewards": {
+    "members": [
+      {
+        "name": "TargetContextTags",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Museum.MuseumDonationRequirement"]
+        }
+      },
+      {
+        "name": "RewardItemId",
+        "type": "String"
+      },
+      {
+        "name": "RewardItemCount",
+        "type": "Int32"
+      },
+      {
+        "name": "RewardItemIsSpecial",
+        "type": "Boolean"
+      },
+      {
+        "name": "RewardItemIsRecipe",
+        "type": "Boolean"
+      },
+      {
+        "name": "RewardActions",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "FlagOnCompletion",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.NpcManner": {
+    "values": {
+      "0": "Neutral",
+      "2": "Rude",
+      "1": "Polite"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.WorldMaps.WorldMapRegionData": {
+    "members": [
+      {
+        "name": "BaseTexture",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WorldMaps.WorldMapTextureData"]
+        }
+      },
+      {
+        "name": "MapNeighborIdAliases",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "MapAreas",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.WorldMaps.WorldMapAreaData"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.LocationContexts.ReviveLocation": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Location",
+        "type": "String"
+      },
+      {
+        "name": "Position",
+        "type": "Point"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Machines.MachineOutputTrigger": {
+    "values": {
+      "8": "DayUpdate",
+      "4": "MachinePutDown",
+      "0": "None",
+      "2": "OutputCollected",
+      "1": "ItemPlacedInMachine"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Locations.CreateLocationData": {
+    "members": [
+      {
+        "name": "MapPath",
+        "type": "String"
+      },
+      {
+        "name": "Type",
+        "type": "String"
+      },
+      {
+        "name": "AlwaysActive",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.LocationContexts.PassOutMailData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Mail",
+        "type": "String"
+      },
+      {
+        "name": "MaxPassOutCost",
+        "type": "Int32"
+      },
+      {
+        "name": "SkipRandomSelection",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FarmAnimals.FarmAnimalGender": {
+    "values": {
+      "0": "Female",
+      "2": "MaleOrFemale",
+      "1": "Male"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Shops.StackSizeVisibility": {
+    "values": {
+      "0": "Hide",
+      "2": "ShowIfMultiple",
+      "1": "Show"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Movies.MovieCranePrizeData": {
+    "members": [
+      {
+        "name": "Rarity",
+        "type": "Int32"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.SpecialOrders.SpecialOrderRewardData": {
+    "members": [
+      {
+        "name": "Type",
+        "type": "String"
+      },
+      {
+        "name": "Data",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.CharacterAppearanceData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Season",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "Indoors",
+        "type": "Boolean"
+      },
+      {
+        "name": "Outdoors",
+        "type": "Boolean"
+      },
+      {
+        "name": "Portrait",
+        "type": "String"
+      },
+      {
+        "name": "Sprite",
+        "type": "String"
+      },
+      {
+        "name": "IsIslandAttire",
+        "type": "Boolean"
+      },
+      {
+        "name": "Precedence",
+        "type": "Int32"
+      },
+      {
+        "name": "Weight",
+        "type": "Int32"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buildings.BuildingMaterial": {
+    "members": [
+      {
+        "name": "ItemId",
+        "type": "String"
+      },
+      {
+        "name": "Amount",
+        "type": "Int32"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Locations.SpawnFishData": {
+    "members": [
+      {
+        "name": "Chance",
+        "type": "Single"
+      },
+      {
+        "name": "Season",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "FishAreaId",
+        "type": "String"
+      },
+      {
+        "name": "BobberPosition",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "PlayerPosition",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "MinFishingLevel",
+        "type": "Int32"
+      },
+      {
+        "name": "MinDistanceFromShore",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxDistanceFromShore",
+        "type": "Int32"
+      },
+      {
+        "name": "ApplyDailyLuck",
+        "type": "Boolean"
+      },
+      {
+        "name": "CuriosityLureBuff",
+        "type": "Single"
+      },
+      {
+        "name": "SpecificBaitBuff",
+        "type": "Single"
+      },
+      {
+        "name": "SpecificBaitMultiplier",
+        "type": "Single"
+      },
+      {
+        "name": "CatchLimit",
+        "type": "Int32"
+      },
+      {
+        "name": "CanUseTrainingRod",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "IsBossFish",
+        "type": "Boolean"
+      },
+      {
+        "name": "SetFlagOnCatch",
+        "type": "String"
+      },
+      {
+        "name": "RequireMagicBait",
+        "type": "Boolean"
+      },
+      {
+        "name": "Precedence",
+        "type": "Int32"
+      },
+      {
+        "name": "IgnoreFishDataRequirements",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanBeInherited",
+        "type": "Boolean"
+      },
+      {
+        "name": "ChanceModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "ChanceModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "ChanceBoostPerLuckLevel",
+        "type": "Single"
+      },
+      {
+        "name": "UseFishCaughtSeededRandom",
+        "type": "Boolean"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.Season": {
+    "values": {
+      "0": "Spring",
+      "2": "Fall",
+      "1": "Summer",
+      "3": "Winter"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Weapons.WeaponData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "MinDamage",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxDamage",
+        "type": "Int32"
+      },
+      {
+        "name": "Knockback",
+        "type": "Single"
+      },
+      {
+        "name": "Speed",
+        "type": "Int32"
+      },
+      {
+        "name": "Precision",
+        "type": "Int32"
+      },
+      {
+        "name": "Defense",
+        "type": "Int32"
+      },
+      {
+        "name": "Type",
+        "type": "Int32"
+      },
+      {
+        "name": "MineBaseLevel",
+        "type": "Int32"
+      },
+      {
+        "name": "MineMinLevel",
+        "type": "Int32"
+      },
+      {
+        "name": "AreaOfEffect",
+        "type": "Int32"
+      },
+      {
+        "name": "CritChance",
+        "type": "Single"
+      },
+      {
+        "name": "CritMultiplier",
+        "type": "Single"
+      },
+      {
+        "name": "CanBeLostOnDeath",
+        "type": "Boolean"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "Projectiles",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Weapons.WeaponProjectile"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.CharacterSpousePatioData": {
+    "members": [
+      {
+        "name": "MapAsset",
+        "type": "String"
+      },
+      {
+        "name": "MapSourceRect",
+        "type": "Rectangle"
+      },
+      {
+        "name": "SpriteAnimationFrames",
+        "type": {
+          "kind": "List",
+          "args": ["Int32[]"]
+        }
+      },
+      {
+        "name": "SpriteAnimationPixelOffset",
+        "type": "Point"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.CharacterSpouseRoomData": {
+    "members": [
+      {
+        "name": "MapAsset",
+        "type": "String"
+      },
+      {
+        "name": "MapSourceRect",
+        "type": "Rectangle"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.SpecialOrders.QuestDuration": {
+    "values": {
+      "0": "Week",
+      "1": "Month",
+      "5": "OneDay",
+      "2": "TwoWeeks",
+      "4": "ThreeDays",
+      "3": "TwoDays"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Locations.FishAreaData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Position",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Rectangle"]
+        }
+      },
+      {
+        "name": "CrabPotFishTypes",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CrabPotJunkChance",
+        "type": "Single"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.LocationContexts.LocationContextData": {
+    "members": [
+      {
+        "name": "SeasonOverride",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "DefaultMusic",
+        "type": "String"
+      },
+      {
+        "name": "DefaultMusicCondition",
+        "type": "String"
+      },
+      {
+        "name": "DefaultMusicDelayOneScreen",
+        "type": "Boolean"
+      },
+      {
+        "name": "Music",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Locations.LocationMusicData"]
+        }
+      },
+      {
+        "name": "DayAmbience",
+        "type": "String"
+      },
+      {
+        "name": "NightAmbience",
+        "type": "String"
+      },
+      {
+        "name": "PlayRandomAmbientSounds",
+        "type": "Boolean"
+      },
+      {
+        "name": "AllowRainTotem",
+        "type": "Boolean"
+      },
+      {
+        "name": "RainTotemAffectsContext",
+        "type": "String"
+      },
+      {
+        "name": "WeatherConditions",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.LocationContexts.WeatherCondition"]
+        }
+      },
+      {
+        "name": "CopyWeatherFromLocation",
+        "type": "String"
+      },
+      {
+        "name": "ReviveLocations",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.LocationContexts.ReviveLocation"]
+        }
+      },
+      {
+        "name": "MaxPassOutCost",
+        "type": "Int32"
+      },
+      {
+        "name": "PassOutMail",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.LocationContexts.PassOutMailData"]
+        }
+      },
+      {
+        "name": "PassOutLocations",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.LocationContexts.ReviveLocation"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WildTrees.WildTreeItemData": {
+    "members": [
+      {
+        "name": "Season",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "Chance",
+        "type": "Single"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.MakeoverOutfits.MakeoverItem": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "ItemId",
+        "type": "String"
+      },
+      {
+        "name": "Color",
+        "type": "String"
+      },
+      {
+        "name": "Gender",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.ISpawnItemData": {
+    "members": [
+      {
+        "name": "ItemId",
+        "type": "String"
+      },
+      {
+        "name": "RandomItemId",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "MaxItems",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "MinStack",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxStack",
+        "type": "Int32"
+      },
+      {
+        "name": "Quality",
+        "type": "Int32"
+      },
+      {
+        "name": "ObjectInternalName",
+        "type": "String"
+      },
+      {
+        "name": "ObjectDisplayName",
+        "type": "String"
+      },
+      {
+        "name": "ObjectColor",
+        "type": "String"
+      },
+      {
+        "name": "ToolUpgradeLevel",
+        "type": "Int32"
+      },
+      {
+        "name": "IsRecipe",
+        "type": "Boolean"
+      },
+      {
+        "name": "StackModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "StackModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "QualityModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "QualityModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "ModData",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "PerItemCondition",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.SpecialOrders.RandomizedElementItem": {
+    "members": [
+      {
+        "name": "RequiredTags",
+        "type": "String"
+      },
+      {
+        "name": "Value",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buildings.BuildingData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "NameForGeneralType",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "Skins",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingSkin"]
+        }
+      },
+      {
+        "name": "DrawShadow",
+        "type": "Boolean"
+      },
+      {
+        "name": "UpgradeSignTile",
+        "type": "Vector2"
+      },
+      {
+        "name": "UpgradeSignHeight",
+        "type": "Single"
+      },
+      {
+        "name": "Size",
+        "type": "Point"
+      },
+      {
+        "name": "FadeWhenBehind",
+        "type": "Boolean"
+      },
+      {
+        "name": "SourceRect",
+        "type": "Rectangle"
+      },
+      {
+        "name": "SeasonOffset",
+        "type": "Point"
+      },
+      {
+        "name": "DrawOffset",
+        "type": "Vector2"
+      },
+      {
+        "name": "SortTileOffset",
+        "type": "Single"
+      },
+      {
+        "name": "CollisionMap",
+        "type": "String"
+      },
+      {
+        "name": "AdditionalPlacementTiles",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingPlacementTile"]
+        }
+      },
+      {
+        "name": "BuildingType",
+        "type": "String"
+      },
+      {
+        "name": "Builder",
+        "type": "String"
+      },
+      {
+        "name": "BuildCondition",
+        "type": "String"
+      },
+      {
+        "name": "BuildDays",
+        "type": "Int32"
+      },
+      {
+        "name": "BuildCost",
+        "type": "Int32"
+      },
+      {
+        "name": "BuildMaterials",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingMaterial"]
+        }
+      },
+      {
+        "name": "BuildingToUpgrade",
+        "type": "String"
+      },
+      {
+        "name": "MagicalConstruction",
+        "type": "Boolean"
+      },
+      {
+        "name": "BuildMenuDrawOffset",
+        "type": "Point"
+      },
+      {
+        "name": "HumanDoor",
+        "type": "Point"
+      },
+      {
+        "name": "AnimalDoor",
+        "type": "Rectangle"
+      },
+      {
+        "name": "AnimalDoorOpenDuration",
+        "type": "Single"
+      },
+      {
+        "name": "AnimalDoorOpenSound",
+        "type": "String"
+      },
+      {
+        "name": "AnimalDoorCloseDuration",
+        "type": "Single"
+      },
+      {
+        "name": "AnimalDoorCloseSound",
+        "type": "String"
+      },
+      {
+        "name": "NonInstancedIndoorLocation",
+        "type": "String"
+      },
+      {
+        "name": "IndoorMap",
+        "type": "String"
+      },
+      {
+        "name": "IndoorMapType",
+        "type": "String"
+      },
+      {
+        "name": "MaxOccupants",
+        "type": "Int32"
+      },
+      {
+        "name": "ValidOccupantTypes",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "AllowAnimalPregnancy",
+        "type": "Boolean"
+      },
+      {
+        "name": "IndoorItemMoves",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.IndoorItemMove"]
+        }
+      },
+      {
+        "name": "IndoorItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.IndoorItemAdd"]
+        }
+      },
+      {
+        "name": "AddMailOnBuild",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "Metadata",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "ModData",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "HayCapacity",
+        "type": "Int32"
+      },
+      {
+        "name": "Chests",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingChest"]
+        }
+      },
+      {
+        "name": "DefaultAction",
+        "type": "String"
+      },
+      {
+        "name": "AdditionalTilePropertyRadius",
+        "type": "Int32"
+      },
+      {
+        "name": "AllowsFlooringUnderneath",
+        "type": "Boolean"
+      },
+      {
+        "name": "ActionTiles",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingActionTile"]
+        }
+      },
+      {
+        "name": "TileProperties",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingTileProperty"]
+        }
+      },
+      {
+        "name": "ItemConversions",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingItemConversion"]
+        }
+      },
+      {
+        "name": "DrawLayers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingDrawLayer"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.ModFarmType": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "TooltipStringPath",
+        "type": "String"
+      },
+      {
+        "name": "MapName",
+        "type": "String"
+      },
+      {
+        "name": "IconTexture",
+        "type": "String"
+      },
+      {
+        "name": "WorldMapTexture",
+        "type": "String"
+      },
+      {
+        "name": "SpawnMonstersByDefault",
+        "type": "Boolean"
+      },
+      {
+        "name": "ModData",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.GiantCrops.GiantCropHarvestItemData": {
+    "members": [
+      {
+        "name": "Chance",
+        "type": "Single"
+      },
+      {
+        "name": "ForShavingEnchantment",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "ScaledMinStackWhenShaving",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "ScaledMaxStackWhenShaving",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.QuantityModifier": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Modification",
+        "type": "enum"
+      },
+      {
+        "name": "Amount",
+        "type": "Single"
+      },
+      {
+        "name": "RandomAmount",
+        "type": {
+          "kind": "List",
+          "args": ["Single"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Movies.SpecialResponses": {
+    "members": [
+      {
+        "name": "BeforeMovie",
+        "type": "StardewValley.GameData.Movies.CharacterResponse"
+      },
+      {
+        "name": "DuringMovie",
+        "type": "StardewValley.GameData.Movies.CharacterResponse"
+      },
+      {
+        "name": "AfterMovie",
+        "type": "StardewValley.GameData.Movies.CharacterResponse"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WildTrees.WildTreeGrowthStage": {
+    "values": {
+      "5": "Tree",
+      "0": "Seed",
+      "2": "Sapling",
+      "1": "Sprout",
+      "3": "Bush"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Minecarts.MinecartNetworkData": {
+    "members": [
+      {
+        "name": "UnlockCondition",
+        "type": "String"
+      },
+      {
+        "name": "LockedMessage",
+        "type": "String"
+      },
+      {
+        "name": "ChooseDestinationMessage",
+        "type": "String"
+      },
+      {
+        "name": "BuyTicketMessage",
+        "type": "String"
+      },
+      {
+        "name": "Destinations",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Minecarts.MinecartDestinationData"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.StatIncrement": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "RequiredItemId",
+        "type": "String"
+      },
+      {
+        "name": "RequiredTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "StatName",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Museum.MuseumDonationRequirement": {
+    "members": [
+      {
+        "name": "Tag",
+        "type": "String"
+      },
+      {
+        "name": "Count",
+        "type": "Int32"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.EndSlideShowBehavior": {
+    "values": {
+      "0": "Hidden",
+      "2": "TrailingGroup",
+      "1": "MainGroup"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Shops.ShopItemData": {
+    "members": [
+      {
+        "name": "TradeItemId",
+        "type": "String"
+      },
+      {
+        "name": "TradeItemAmount",
+        "type": "Int32"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "ApplyProfitMargins",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "AvailableStock",
+        "type": "Int32"
+      },
+      {
+        "name": "AvailableStockLimit",
+        "type": "enum"
+      },
+      {
+        "name": "AvoidRepeat",
+        "type": "Boolean"
+      },
+      {
+        "name": "UseObjectDataPrice",
+        "type": "Boolean"
+      },
+      {
+        "name": "IgnoreShopPriceModifiers",
+        "type": "Boolean"
+      },
+      {
+        "name": "PriceModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "PriceModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "AvailableStockModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "AvailableStockModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "ActionsOnPurchase",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.Buildings.IndoorItemAdd": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "ItemId",
+        "type": "String"
+      },
+      {
+        "name": "Tile",
+        "type": "Point"
+      },
+      {
+        "name": "Indestructible",
+        "type": "Boolean"
+      },
+      {
+        "name": "ClearTile",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.TemporaryAnimatedSpriteDefinition": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SourceRect",
+        "type": "Rectangle"
+      },
+      {
+        "name": "Interval",
+        "type": "Single"
+      },
+      {
+        "name": "Frames",
+        "type": "Int32"
+      },
+      {
+        "name": "Loops",
+        "type": "Int32"
+      },
+      {
+        "name": "PositionOffset",
+        "type": "Vector2"
+      },
+      {
+        "name": "Flicker",
+        "type": "Boolean"
+      },
+      {
+        "name": "Flip",
+        "type": "Boolean"
+      },
+      {
+        "name": "SortOffset",
+        "type": "Single"
+      },
+      {
+        "name": "AlphaFade",
+        "type": "Single"
+      },
+      {
+        "name": "Scale",
+        "type": "Single"
+      },
+      {
+        "name": "ScaleChange",
+        "type": "Single"
+      },
+      {
+        "name": "Rotation",
+        "type": "Single"
+      },
+      {
+        "name": "RotationChange",
+        "type": "Single"
+      },
+      {
+        "name": "Color",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.MannequinData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "FarmerTexture",
+        "type": "String"
+      },
+      {
+        "name": "SheetIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "DisplaysClothingAsMale",
+        "type": "Boolean"
+      },
+      {
+        "name": "Cursed",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.GenericSpawnItemData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "ItemId",
+        "type": "String"
+      },
+      {
+        "name": "RandomItemId",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "MaxItems",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "MinStack",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxStack",
+        "type": "Int32"
+      },
+      {
+        "name": "Quality",
+        "type": "Int32"
+      },
+      {
+        "name": "ObjectInternalName",
+        "type": "String"
+      },
+      {
+        "name": "ObjectDisplayName",
+        "type": "String"
+      },
+      {
+        "name": "ObjectColor",
+        "type": "String"
+      },
+      {
+        "name": "ToolUpgradeLevel",
+        "type": "Int32"
+      },
+      {
+        "name": "IsRecipe",
+        "type": "Boolean"
+      },
+      {
+        "name": "StackModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "StackModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "QualityModifiers",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.QuantityModifier"]
+        }
+      },
+      {
+        "name": "QualityModifierMode",
+        "type": "enum"
+      },
+      {
+        "name": "ModData",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "PerItemCondition",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.MonsterSlayerQuestData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Targets",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "Count",
+        "type": "Int32"
+      },
+      {
+        "name": "RewardItemId",
+        "type": "String"
+      },
+      {
+        "name": "RewardItemPrice",
+        "type": "Int32"
+      },
+      {
+        "name": "RewardDialogue",
+        "type": "String"
+      },
+      {
+        "name": "RewardDialogueFlag",
+        "type": "String"
+      },
+      {
+        "name": "RewardFlag",
+        "type": "String"
+      },
+      {
+        "name": "RewardFlagAll",
+        "type": "String"
+      },
+      {
+        "name": "RewardMail",
+        "type": "String"
+      },
+      {
+        "name": "RewardMailAll",
+        "type": "String"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Pets.PetAnimationLoopMode": {
+    "values": {
+      "0": "None",
+      "2": "Hold",
+      "1": "Loop"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.FishPonds.FishPondReward": {
+    "members": [
+      {
+        "name": "RequiredPopulation",
+        "type": "Int32"
+      },
+      {
+        "name": "Chance",
+        "type": "Single"
+      },
+      {
+        "name": "Precedence",
+        "type": "Int32"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.Buffs.BuffData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "IsDebuff",
+        "type": "Boolean"
+      },
+      {
+        "name": "GlowColor",
+        "type": "String"
+      },
+      {
+        "name": "Duration",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxDuration",
+        "type": "Int32"
+      },
+      {
+        "name": "IconTexture",
+        "type": "String"
+      },
+      {
+        "name": "IconSpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "Effects",
+        "type": "StardewValley.GameData.Buffs.BuffAttributesData"
+      },
+      {
+        "name": "ActionsOnApply",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Shops.ShopOwnerType": {
+    "values": {
+      "0": "NamedNpc",
+      "2": "AnyOrNone",
+      "1": "Any",
+      "3": "None"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Machines.MachineLight": {
+    "members": [
+      {
+        "name": "Radius",
+        "type": "Single"
+      },
+      {
+        "name": "Color",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FishPonds.FishPondWaterColor": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Color",
+        "type": "String"
+      },
+      {
+        "name": "MinPopulation",
+        "type": "Int32"
+      },
+      {
+        "name": "MinUnlockedPopulationGate",
+        "type": "Int32"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Locations.LocationData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "DefaultArrivalTile",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Point"]
+        }
+      },
+      {
+        "name": "ExcludeFromNpcPathfinding",
+        "type": "Boolean"
+      },
+      {
+        "name": "CreateOnLoad",
+        "type": "StardewValley.GameData.Locations.CreateLocationData"
+      },
+      {
+        "name": "FormerLocationNames",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CanPlantHere",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      },
+      {
+        "name": "CanHaveGreenRainSpawns",
+        "type": "Boolean"
+      },
+      {
+        "name": "ArtifactSpots",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Locations.ArtifactSpotDropData"]
+        }
+      },
+      {
+        "name": "FishAreas",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "StardewValley.GameData.Locations.FishAreaData"]
+        }
+      },
+      {
+        "name": "Fish",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Locations.SpawnFishData"]
+        }
+      },
+      {
+        "name": "Forage",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Locations.SpawnForageData"]
+        }
+      },
+      {
+        "name": "MinDailyWeeds",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxDailyWeeds",
+        "type": "Int32"
+      },
+      {
+        "name": "FirstDayWeedMultiplier",
+        "type": "Int32"
+      },
+      {
+        "name": "MinDailyForageSpawn",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxDailyForageSpawn",
+        "type": "Int32"
+      },
+      {
+        "name": "MaxSpawnedForageAtOnce",
+        "type": "Int32"
+      },
+      {
+        "name": "ChanceForClay",
+        "type": "Double"
+      },
+      {
+        "name": "Music",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Locations.LocationMusicData"]
+        }
+      },
+      {
+        "name": "MusicDefault",
+        "type": "String"
+      },
+      {
+        "name": "MusicContext",
+        "type": "enum"
+      },
+      {
+        "name": "MusicIgnoredInRain",
+        "type": "Boolean"
+      },
+      {
+        "name": "MusicIgnoredInSpring",
+        "type": "Boolean"
+      },
+      {
+        "name": "MusicIgnoredInSummer",
+        "type": "Boolean"
+      },
+      {
+        "name": "MusicIgnoredInFall",
+        "type": "Boolean"
+      },
+      {
+        "name": "MusicIgnoredInFallDebris",
+        "type": "Boolean"
+      },
+      {
+        "name": "MusicIgnoredInWinter",
+        "type": "Boolean"
+      },
+      {
+        "name": "MusicIsTownTheme",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Locations.LocationMusicData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Track",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Pets.PetData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "BarkSound",
+        "type": "String"
+      },
+      {
+        "name": "ContentSound",
+        "type": "String"
+      },
+      {
+        "name": "RepeatContentSoundAfter",
+        "type": "Int32"
+      },
+      {
+        "name": "EmoteOffset",
+        "type": "Point"
+      },
+      {
+        "name": "EventOffset",
+        "type": "Point"
+      },
+      {
+        "name": "AdoptionEventLocation",
+        "type": "String"
+      },
+      {
+        "name": "AdoptionEventId",
+        "type": "String"
+      },
+      {
+        "name": "SummitPerfectionEvent",
+        "type": "StardewValley.GameData.Pets.PetSummitPerfectionEventData"
+      },
+      {
+        "name": "MoveSpeed",
+        "type": "Int32"
+      },
+      {
+        "name": "SleepOnBedChance",
+        "type": "Single"
+      },
+      {
+        "name": "SleepNearBedChance",
+        "type": "Single"
+      },
+      {
+        "name": "SleepOnRugChance",
+        "type": "Single"
+      },
+      {
+        "name": "Behaviors",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetBehavior"]
+        }
+      },
+      {
+        "name": "GiftChance",
+        "type": "Single"
+      },
+      {
+        "name": "Gifts",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetGift"]
+        }
+      },
+      {
+        "name": "Breeds",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetBreed"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Movies.MovieData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Seasons",
+        "type": {
+          "kind": "List",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "YearModulus",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "YearRemainder",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SheetIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "Title",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Tags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CranePrizes",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Movies.MovieCranePrizeData"]
+        }
+      },
+      {
+        "name": "ClearDefaultCranePrizeGroups",
+        "type": {
+          "kind": "List",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "Scenes",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Movies.MovieScene"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buildings.BuildingPlacementTile": {
+    "members": [
+      {
+        "name": "TileArea",
+        "type": "Rectangle"
+      },
+      {
+        "name": "OnlyNeedsToBePassable",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.GarbageCans.GarbageCanEntryData": {
+    "members": [
+      {
+        "name": "BaseChance",
+        "type": "Single"
+      },
+      {
+        "name": "Items",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.GarbageCans.GarbageCanItemData"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Buildings.BuildingDrawLayer": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SourceRect",
+        "type": "Rectangle"
+      },
+      {
+        "name": "DrawPosition",
+        "type": "Vector2"
+      },
+      {
+        "name": "DrawInBackground",
+        "type": "Boolean"
+      },
+      {
+        "name": "SortTileOffset",
+        "type": "Single"
+      },
+      {
+        "name": "OnlyDrawIfChestHasContents",
+        "type": "String"
+      },
+      {
+        "name": "FrameDuration",
+        "type": "Int32"
+      },
+      {
+        "name": "FrameCount",
+        "type": "Int32"
+      },
+      {
+        "name": "FramesPerRow",
+        "type": "Int32"
+      },
+      {
+        "name": "AnimalDoorOffset",
+        "type": "Point"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Objects.ObjectData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Type",
+        "type": "String"
+      },
+      {
+        "name": "Category",
+        "type": "Int32"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "ColorOverlayFromNextIndex",
+        "type": "Boolean"
+      },
+      {
+        "name": "Edibility",
+        "type": "Int32"
+      },
+      {
+        "name": "IsDrink",
+        "type": "Boolean"
+      },
+      {
+        "name": "Buffs",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Objects.ObjectBuffData"]
+        }
+      },
+      {
+        "name": "GeodeDropsDefaultItems",
+        "type": "Boolean"
+      },
+      {
+        "name": "GeodeDrops",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Objects.ObjectGeodeDropData"]
+        }
+      },
+      {
+        "name": "ArtifactSpotChances",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "Single"]
+        }
+      },
+      {
+        "name": "CanBeGivenAsGift",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanBeTrashed",
+        "type": "Boolean"
+      },
+      {
+        "name": "ExcludeFromFishingCollection",
+        "type": "Boolean"
+      },
+      {
+        "name": "ExcludeFromShippingCollection",
+        "type": "Boolean"
+      },
+      {
+        "name": "ExcludeFromRandomSale",
+        "type": "Boolean"
+      },
+      {
+        "name": "ContextTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.CharacterShadowData": {
+    "members": [
+      {
+        "name": "Visible",
+        "type": "Boolean"
+      },
+      {
+        "name": "Offset",
+        "type": "Point"
+      },
+      {
+        "name": "Scale",
+        "type": "Single"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Pets.PetSummitPerfectionEventData": {
+    "members": [
+      {
+        "name": "SourceRect",
+        "type": "Rectangle"
+      },
+      {
+        "name": "AnimationLength",
+        "type": "Int32"
+      },
+      {
+        "name": "Flipped",
+        "type": "Boolean"
+      },
+      {
+        "name": "Motion",
+        "type": "Vector2"
+      },
+      {
+        "name": "PingPong",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Pets.PetAnimationFrame": {
+    "members": [
+      {
+        "name": "Frame",
+        "type": "Int32"
+      },
+      {
+        "name": "Duration",
+        "type": "Int32"
+      },
+      {
+        "name": "HitGround",
+        "type": "Boolean"
+      },
+      {
+        "name": "Jump",
+        "type": "Boolean"
+      },
+      {
+        "name": "Sound",
+        "type": "String"
+      },
+      {
+        "name": "SoundRangeFromBorder",
+        "type": "Int32"
+      },
+      {
+        "name": "SoundRange",
+        "type": "Int32"
+      },
+      {
+        "name": "SoundIsVoice",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.WildTrees.WildTreeChopItemData": {
+    "members": [
+      {
+        "name": "MinSize",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "MaxSize",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "ForStump",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Boolean"]
+        }
+      }
+    ],
+    "base": "StardewValley.GameData.WildTrees.WildTreeItemData"
+  },
+  "StardewValley.GameData.BigCraftables.BigCraftableData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "Fragility",
+        "type": "Int32"
+      },
+      {
+        "name": "CanBePlacedOutdoors",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanBePlacedIndoors",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsLamp",
+        "type": "Boolean"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "ContextTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.PlantableResult": {
+    "values": {
+      "0": "Default",
+      "2": "Deny",
+      "1": "Allow"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.WorldMaps.WorldMapTextureData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SourceRect",
+        "type": "Rectangle"
+      },
+      {
+        "name": "MapPixelArea",
+        "type": "Rectangle"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Bundles.BundleData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "Index",
+        "type": "Int32"
+      },
+      {
+        "name": "Sprite",
+        "type": "String"
+      },
+      {
+        "name": "Color",
+        "type": "String"
+      },
+      {
+        "name": "Items",
+        "type": "String"
+      },
+      {
+        "name": "Pick",
+        "type": "Int32"
+      },
+      {
+        "name": "RequiredItems",
+        "type": "Int32"
+      },
+      {
+        "name": "Reward",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Machines.MachineEffects": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Sounds",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Machines.MachineSoundData"]
+        }
+      },
+      {
+        "name": "Interval",
+        "type": "Int32"
+      },
+      {
+        "name": "Frames",
+        "type": {
+          "kind": "List",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "ShakeDuration",
+        "type": "Int32"
+      },
+      {
+        "name": "TemporarySprites",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.TemporaryAnimatedSpriteDefinition"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.GiantCrops.GiantCropData": {
+    "members": [
+      {
+        "name": "FromItemId",
+        "type": "String"
+      },
+      {
+        "name": "HarvestItems",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.GiantCrops.GiantCropHarvestItemData"]
+        }
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "TexturePosition",
+        "type": "Point"
+      },
+      {
+        "name": "TileSize",
+        "type": "Point"
+      },
+      {
+        "name": "Health",
+        "type": "Int32"
+      },
+      {
+        "name": "Chance",
+        "type": "Single"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Pets.PetBehavior": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "IsSideBehavior",
+        "type": "Boolean"
+      },
+      {
+        "name": "RandomizeDirection",
+        "type": "Boolean"
+      },
+      {
+        "name": "Direction",
+        "type": "String"
+      },
+      {
+        "name": "WalkInDirection",
+        "type": "Boolean"
+      },
+      {
+        "name": "MoveSpeed",
+        "type": "Int32"
+      },
+      {
+        "name": "SoundOnStart",
+        "type": "String"
+      },
+      {
+        "name": "SoundRangeFromBorder",
+        "type": "Int32"
+      },
+      {
+        "name": "SoundRange",
+        "type": "Int32"
+      },
+      {
+        "name": "SoundIsVoice",
+        "type": "Boolean"
+      },
+      {
+        "name": "Shake",
+        "type": "Int32"
+      },
+      {
+        "name": "Animation",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetAnimationFrame"]
+        }
+      },
+      {
+        "name": "LoopMode",
+        "type": "enum"
+      },
+      {
+        "name": "AnimationMinimumLoops",
+        "type": "Int32"
+      },
+      {
+        "name": "AnimationMaximumLoops",
+        "type": "Int32"
+      },
+      {
+        "name": "AnimationEndBehaviorChanges",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetBehaviorChanges"]
+        }
+      },
+      {
+        "name": "Duration",
+        "type": "Int32"
+      },
+      {
+        "name": "MinimumDuration",
+        "type": "Int32"
+      },
+      {
+        "name": "MaximumDuration",
+        "type": "Int32"
+      },
+      {
+        "name": "TimeoutBehaviorChanges",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetBehaviorChanges"]
+        }
+      },
+      {
+        "name": "PlayerNearbyBehaviorChanges",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetBehaviorChanges"]
+        }
+      },
+      {
+        "name": "RandomBehaviorChangeChance",
+        "type": "Single"
+      },
+      {
+        "name": "RandomBehaviorChanges",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetBehaviorChanges"]
+        }
+      },
+      {
+        "name": "JumpLandBehaviorChanges",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Pets.PetBehaviorChanges"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Shops.ShopDialogueData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "Dialogue",
+        "type": "String"
+      },
+      {
+        "name": "RandomDialogue",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Tools.ToolData": {
+    "members": [
+      {
+        "name": "ClassName",
+        "type": "String"
+      },
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "AttachmentSlots",
+        "type": "Int32"
+      },
+      {
+        "name": "SalePrice",
+        "type": "Int32"
+      },
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "MenuSpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "UpgradeLevel",
+        "type": "Int32"
+      },
+      {
+        "name": "ConventionalUpgradeFrom",
+        "type": "String"
+      },
+      {
+        "name": "UpgradeFrom",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Tools.ToolUpgradeData"]
+        }
+      },
+      {
+        "name": "CanBeLostOnDeath",
+        "type": "Boolean"
+      },
+      {
+        "name": "SetProperties",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "ModData",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.HomeRenovations.Rect": {
+    "members": [
+      {
+        "name": "X",
+        "type": "Int32"
+      },
+      {
+        "name": "Y",
+        "type": "Int32"
+      },
+      {
+        "name": "Width",
+        "type": "Int32"
+      },
+      {
+        "name": "Height",
+        "type": "Int32"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Machines.MachineTimeBlockers": {
+    "values": {
+      "0": "Outside",
+      "6": "Sun",
+      "1": "Inside",
+      "7": "Rain",
+      "5": "Winter",
+      "8": "Always",
+      "2": "Spring",
+      "4": "Fall",
+      "3": "Summer"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.TrinketData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SheetIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "TrinketEffectClass",
+        "type": "String"
+      },
+      {
+        "name": "DropsNaturally",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanBeReforged",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "ModData",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.FloorsAndPaths.FloorPathData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "ItemId",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "Corner",
+        "type": "Point"
+      },
+      {
+        "name": "WinterTexture",
+        "type": "String"
+      },
+      {
+        "name": "WinterCorner",
+        "type": "Point"
+      },
+      {
+        "name": "PlacementSound",
+        "type": "String"
+      },
+      {
+        "name": "RemovalSound",
+        "type": "String"
+      },
+      {
+        "name": "RemovalDebrisType",
+        "type": "Int32"
+      },
+      {
+        "name": "FootstepSound",
+        "type": "String"
+      },
+      {
+        "name": "ConnectType",
+        "type": "enum"
+      },
+      {
+        "name": "ShadowType",
+        "type": "enum"
+      },
+      {
+        "name": "CornerSize",
+        "type": "Int32"
+      },
+      {
+        "name": "FarmSpeedBuff",
+        "type": "Single"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Movies.MovieCharacterReaction": {
+    "members": [
+      {
+        "name": "NPCName",
+        "type": "String"
+      },
+      {
+        "name": "Reactions",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Movies.MovieReaction"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.PlantableRuleContext": {
+    "values": {
+      "2": "GardenPot",
+      "1": "Ground",
+      "3": "Any"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.TriggerActionData": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Trigger",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "SkipPermanentlyCondition",
+        "type": "String"
+      },
+      {
+        "name": "HostOnly",
+        "type": "Boolean"
+      },
+      {
+        "name": "Action",
+        "type": "String"
+      },
+      {
+        "name": "Actions",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "MarkActionApplied",
+        "type": "Boolean"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.LostItem": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "ItemId",
+        "type": "String"
+      },
+      {
+        "name": "RequireMailReceived",
+        "type": "String"
+      },
+      {
+        "name": "RequireEventSeen",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.NpcSocialAnxiety": {
+    "values": {
+      "0": "Outgoing",
+      "2": "Neutral",
+      "1": "Shy"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Characters.CalendarBehavior": {
+    "values": {
+      "0": "AlwaysShown",
+      "2": "HiddenAlways",
+      "1": "HiddenUntilMet"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Buildings.BuildingSkin": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "NameForGeneralType",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "BuildDays",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "BuildCost",
+        "type": {
+          "kind": "Nullable",
+          "args": ["Int32"]
+        }
+      },
+      {
+        "name": "BuildMaterials",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.Buildings.BuildingMaterial"]
+        }
+      },
+      {
+        "name": "ShowAsSeparateConstructionEntry",
+        "type": "Boolean"
+      },
+      {
+        "name": "Metadata",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Characters.NpcAge": {
+    "values": {
+      "0": "Adult",
+      "2": "Child",
+      "1": "Teen"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Characters.NpcLanguage": {
+    "values": {
+      "1": "Dwarvish",
+      "0": "Default"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.Fences.FenceData": {
+    "members": [
+      {
+        "name": "Health",
+        "type": "Int32"
+      },
+      {
+        "name": "RepairHealthAdjustmentMinimum",
+        "type": "Single"
+      },
+      {
+        "name": "RepairHealthAdjustmentMaximum",
+        "type": "Single"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "PlacementSound",
+        "type": "String"
+      },
+      {
+        "name": "RemovalSound",
+        "type": "String"
+      },
+      {
+        "name": "RemovalToolIds",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "RemovalToolTypes",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "RemovalDebrisType",
+        "type": "Int32"
+      },
+      {
+        "name": "HeldObjectDrawOffset",
+        "type": "Vector2"
+      },
+      {
+        "name": "LeftEndHeldObjectDrawX",
+        "type": "Single"
+      },
+      {
+        "name": "RightEndHeldObjectDrawX",
+        "type": "Single"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.GarbageCans.GarbageCanData": {
+    "members": [
+      {
+        "name": "DefaultBaseChance",
+        "type": "Single"
+      },
+      {
+        "name": "BeforeAll",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.GarbageCans.GarbageCanItemData"]
+        }
+      },
+      {
+        "name": "AfterAll",
+        "type": {
+          "kind": "List",
+          "args": ["StardewValley.GameData.GarbageCans.GarbageCanItemData"]
+        }
+      },
+      {
+        "name": "GarbageCans",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "StardewValley.GameData.GarbageCans.GarbageCanEntryData"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Machines.MachineOutputTriggerRule": {
+    "members": [
+      {
+        "name": "Id",
+        "type": "String"
+      },
+      {
+        "name": "Trigger",
+        "type": "enum"
+      },
+      {
+        "name": "RequiredItemId",
+        "type": "String"
+      },
+      {
+        "name": "RequiredTags",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "RequiredCount",
+        "type": "Int32"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Weddings.WeddingData": {
+    "members": [
+      {
+        "name": "EventScript",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "Attendees",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "StardewValley.GameData.Weddings.WeddingAttendeeData"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Crops.HarvestMethod": {
+    "values": {
+      "1": "Scythe",
+      "0": "Grab"
+    },
+    "kind": "enum"
+  },
+  "StardewValley.GameData.FruitTrees.FruitTreeFruitData": {
+    "members": [
+      {
+        "name": "Season",
+        "type": {
+          "kind": "Nullable",
+          "args": ["enum"]
+        }
+      },
+      {
+        "name": "Chance",
+        "type": "Single"
+      }
+    ],
+    "base": "StardewValley.GameData.GenericSpawnItemDataWithCondition"
+  },
+  "StardewValley.GameData.Pants.PantsData": {
+    "members": [
+      {
+        "name": "Name",
+        "type": "String"
+      },
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Description",
+        "type": "String"
+      },
+      {
+        "name": "Price",
+        "type": "Int32"
+      },
+      {
+        "name": "Texture",
+        "type": "String"
+      },
+      {
+        "name": "SpriteIndex",
+        "type": "Int32"
+      },
+      {
+        "name": "DefaultColor",
+        "type": "String"
+      },
+      {
+        "name": "CanBeDyed",
+        "type": "Boolean"
+      },
+      {
+        "name": "IsPrismatic",
+        "type": "Boolean"
+      },
+      {
+        "name": "CanChooseDuringCharacterCustomization",
+        "type": "Boolean"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.PassiveFestivalData": {
+    "members": [
+      {
+        "name": "DisplayName",
+        "type": "String"
+      },
+      {
+        "name": "Condition",
+        "type": "String"
+      },
+      {
+        "name": "ShowOnCalendar",
+        "type": "Boolean"
+      },
+      {
+        "name": "Season",
+        "type": "enum"
+      },
+      {
+        "name": "StartDay",
+        "type": "Int32"
+      },
+      {
+        "name": "EndDay",
+        "type": "Int32"
+      },
+      {
+        "name": "StartTime",
+        "type": "Int32"
+      },
+      {
+        "name": "StartMessage",
+        "type": "String"
+      },
+      {
+        "name": "OnlyShowMessageOnFirstDay",
+        "type": "Boolean"
+      },
+      {
+        "name": "MapReplacements",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      },
+      {
+        "name": "DailySetupMethod",
+        "type": "String"
+      },
+      {
+        "name": "CleanupMethod",
+        "type": "String"
+      },
+      {
+        "name": "CustomFields",
+        "type": {
+          "kind": "Dictionary",
+          "args": ["String", "String"]
+        }
+      }
+    ],
+    "base": null
+  },
+  "StardewValley.GameData.Movies.MovieReaction": {
+    "members": [
+      {
+        "name": "Tag",
+        "type": "String"
+      },
+      {
+        "name": "Response",
+        "type": "String"
+      },
+      {
+        "name": "Whitelist",
+        "type": {
+          "kind": "List",
+          "args": ["String"]
+        }
+      },
+      {
+        "name": "SpecialResponses",
+        "type": "StardewValley.GameData.Movies.SpecialResponses"
+      },
+      {
+        "name": "Id",
+        "type": "String"
+      }
+    ],
+    "base": null
+  }
+}

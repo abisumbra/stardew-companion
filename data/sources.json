@@ -1,0 +1,1373 @@
+{
+  "checkup": {
+    "title": "Stardew Checkup · collection catalogs and save structures",
+    "url": "https://github.com/MouseyPounds/stardew-checkup",
+    "license": "MIT",
+    "verifiedAt": "2026-10-15",
+    "verification": "reference-inspected"
+  },
+  "steam": {
+    "title": "Steam · official achievement listing",
+    "url": "https://steamcommunity.com/stats/413150/achievements/",
+    "license": "Valve public listing; factual metadata",
+    "verifiedAt": "2026-10-15",
+    "verification": "official"
+  },
+  "wiki-perfection": {
+    "title": "Stardew Valley Wiki · Perfection",
+    "url": "https://stardewvalleywiki.com/Perfection",
+    "revision": "195311",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-cooking": {
+    "title": "Stardew Valley Wiki · Cooking",
+    "url": "https://stardewvalleywiki.com/Cooking",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-crafting": {
+    "title": "Stardew Valley Wiki · Crafting",
+    "url": "https://stardewvalleywiki.com/Crafting",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-fish": {
+    "title": "Stardew Valley Wiki · Fish",
+    "url": "https://stardewvalleywiki.com/Fish",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "category-reference"
+  },
+  "wiki-collections": {
+    "title": "Stardew Valley Wiki · Collections",
+    "url": "https://www.stardewvalleywiki.com/Collections",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-pumpkin": {
+    "title": "Stardew Valley Wiki · Pumpkin",
+    "url": "https://stardewvalleywiki.com/Pumpkin",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-robin": {
+    "title": "Stardew Valley Wiki · Robin",
+    "url": "https://stardewvalleywiki.com/Robin",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-curry": {
+    "title": "Stardew Valley Wiki · Tropical Curry",
+    "url": "https://stardewvalleywiki.com/Tropical_Curry",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-egg": {
+    "title": "Stardew Valley Wiki · Egg",
+    "url": "https://stardewvalleywiki.com/Egg",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-stardrop": {
+    "title": "Stardew Valley Wiki · Stardrop",
+    "url": "https://stardewvalleywiki.com/Stardrop",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-fibs": {
+    "title": "Stardew Valley Wiki · Fishing Information Broadcasting Service",
+    "url": "https://stardewvalleywiki.com/Fishing_Information_Broadcasting_Service",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-friendship": {
+    "title": "Stardew Valley Wiki · Friendship",
+    "url": "https://www.stardewvalleywiki.com/Friendship",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service"
+  },
+  "wiki-fish-152": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Seaweed",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Seaweed"
+  },
+  "wiki-fish-153": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Green_Algae",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Green Algae"
+  },
+  "wiki-fish-157": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/White_Algae",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · White Algae"
+  },
+  "wiki-fish-128": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Pufferfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Pufferfish"
+  },
+  "wiki-fish-129": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Anchovy",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Anchovy"
+  },
+  "wiki-fish-130": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Tuna",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Tuna"
+  },
+  "wiki-fish-131": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Sardine",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sardine"
+  },
+  "wiki-fish-132": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Bream",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Bream"
+  },
+  "wiki-fish-136": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Largemouth_Bass",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Largemouth Bass"
+  },
+  "wiki-fish-137": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Smallmouth_Bass",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Smallmouth Bass"
+  },
+  "wiki-fish-138": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Rainbow_Trout",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Rainbow Trout"
+  },
+  "wiki-fish-139": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Salmon",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Salmon"
+  },
+  "wiki-fish-140": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Walleye",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Walleye"
+  },
+  "wiki-fish-141": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Perch",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Perch"
+  },
+  "wiki-fish-142": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Carp",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Carp"
+  },
+  "wiki-fish-143": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Catfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Catfish"
+  },
+  "wiki-fish-144": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Pike",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Pike"
+  },
+  "wiki-fish-145": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Sunfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sunfish"
+  },
+  "wiki-fish-146": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Red_Mullet",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Red Mullet"
+  },
+  "wiki-fish-147": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Herring",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Herring"
+  },
+  "wiki-fish-148": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Eel",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Eel"
+  },
+  "wiki-fish-149": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Octopus",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Octopus"
+  },
+  "wiki-fish-150": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Red_Snapper",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Red Snapper"
+  },
+  "wiki-fish-151": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Squid",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Squid"
+  },
+  "wiki-fish-154": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Sea_Cucumber",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sea Cucumber"
+  },
+  "wiki-fish-155": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Super_Cucumber",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Super Cucumber"
+  },
+  "wiki-fish-156": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Ghostfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Ghostfish"
+  },
+  "wiki-fish-158": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Stonefish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Stonefish"
+  },
+  "wiki-fish-159": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Crimsonfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Crimsonfish"
+  },
+  "wiki-fish-160": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Angler",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Angler"
+  },
+  "wiki-fish-161": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Ice_Pip",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Ice Pip"
+  },
+  "wiki-fish-162": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Lava_Eel",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Lava Eel"
+  },
+  "wiki-fish-163": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Legend",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Legend"
+  },
+  "wiki-fish-164": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Sandfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sandfish"
+  },
+  "wiki-fish-165": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Scorpion_Carp",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Scorpion Carp"
+  },
+  "wiki-fish-682": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Mutant_Carp",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Mutant Carp"
+  },
+  "wiki-fish-698": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Sturgeon",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sturgeon"
+  },
+  "wiki-fish-699": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Tiger_Trout",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Tiger Trout"
+  },
+  "wiki-fish-700": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Bullhead",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Bullhead"
+  },
+  "wiki-fish-701": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Tilapia",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Tilapia"
+  },
+  "wiki-fish-702": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Chub",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Chub"
+  },
+  "wiki-fish-704": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Dorado",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Dorado"
+  },
+  "wiki-fish-705": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Albacore",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Albacore"
+  },
+  "wiki-fish-706": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Shad",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Shad"
+  },
+  "wiki-fish-707": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Lingcod",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Lingcod"
+  },
+  "wiki-fish-708": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Halibut",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Halibut"
+  },
+  "wiki-fish-715": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Lobster",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Lobster"
+  },
+  "wiki-fish-716": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Crayfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Crayfish"
+  },
+  "wiki-fish-717": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Crab",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Crab"
+  },
+  "wiki-fish-718": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Cockle",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Cockle"
+  },
+  "wiki-fish-719": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Mussel",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Mussel"
+  },
+  "wiki-fish-720": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Shrimp",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Shrimp"
+  },
+  "wiki-fish-721": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Snail",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Snail"
+  },
+  "wiki-fish-722": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Periwinkle",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Periwinkle"
+  },
+  "wiki-fish-723": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Oyster",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Oyster"
+  },
+  "wiki-fish-734": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Woodskip",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Woodskip"
+  },
+  "wiki-fish-775": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Glacierfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Glacierfish"
+  },
+  "wiki-fish-795": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Void_Salmon",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Void Salmon"
+  },
+  "wiki-fish-796": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Slimejack",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Slimejack"
+  },
+  "wiki-fish-798": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Midnight_Squid",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Midnight Squid"
+  },
+  "wiki-fish-799": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Spook_Fish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Spook Fish"
+  },
+  "wiki-fish-800": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Blobfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Blobfish"
+  },
+  "wiki-fish-269": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Midnight_Carp",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Midnight Carp"
+  },
+  "wiki-fish-267": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Flounder",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Flounder"
+  },
+  "wiki-fish-836": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Stingray",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Stingray"
+  },
+  "wiki-fish-837": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Lionfish",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Lionfish"
+  },
+  "wiki-fish-838": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Blue_Discus",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Blue Discus"
+  },
+  "wiki-fish-Goby": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Goby",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Goby"
+  },
+  "wiki-fish-CaveJelly": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Cave_Jelly",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Cave Jelly"
+  },
+  "wiki-fish-RiverJelly": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/River_Jelly",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · River Jelly"
+  },
+  "wiki-fish-SeaJelly": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Sea_Jelly",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sea Jelly"
+  },
+  "wiki-fish-372": {
+    "verification": "individual-page-research",
+    "url": "https://stardewvalleywiki.com/Clam",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Clam"
+  },
+  "wiki-magic-bait": {
+    "verification": "research-service",
+    "url": "https://stardewvalleywiki.com/Magic_Bait",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Magic Bait"
+  },
+  "wiki-crab-pot": {
+    "verification": "research-service",
+    "url": "https://stardewvalleywiki.com/Crab_Pot",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Crab Pot"
+  },
+  "wiki-npc-Abigail": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Abigail",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Abigail",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Alex": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Alex",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Alex",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Elliott": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Elliott",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Elliott",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Emily": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Emily",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Emily",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Haley": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Haley",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Haley",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Harvey": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Harvey",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Harvey",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Leah": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Leah",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Leah",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Maru": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Maru",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Maru",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Penny": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Penny",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Penny",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Sam": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Sam",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sam",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Sebastian": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Sebastian",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sebastian",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Shane": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Shane",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Shane",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Caroline": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Caroline",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Caroline",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Clint": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Clint",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Clint",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Demetrius": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Demetrius",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Demetrius",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Dwarf": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Dwarf",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Dwarf",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Evelyn": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Evelyn",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Evelyn",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-George": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/George",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · George",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Gus": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Gus",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Gus",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Jas": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Jas",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Jas",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Jodi": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Jodi",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Jodi",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Kent": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Kent",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Kent",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Krobus": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Krobus",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Krobus",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Lewis": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Lewis",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Lewis",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Linus": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Linus",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Linus",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Marnie": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Marnie",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Marnie",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Pam": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Pam",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Pam",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Pierre": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Pierre",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Pierre",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Robin": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Robin",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Robin",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Sandy": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Sandy",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Sandy",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Vincent": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Vincent",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Vincent",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Willy": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Willy",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Willy",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Wizard": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Wizard",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Wizard",
+    "verification": "individual-page-research"
+  },
+  "wiki-npc-Leo": {
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Leo",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Leo",
+    "verification": "individual-page-research"
+  },
+  "wiki-training-rod": {
+    "url": "https://stardewvalleywiki.com/Training_Rod",
+    "verifiedAt": "2026-10-15",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Training Rod",
+    "revision": "194241"
+  },
+  "wiki-world-map": {
+    "revision": "190059",
+    "license": "CC BY-NC-SA 3.0",
+    "verification": "research-service",
+    "url": "https://stardewvalleywiki.com/Modding:World_map",
+    "verifiedAt": "2026-10-15",
+    "title": "Stardew Valley Wiki · World-map data"
+  },
+  "wiki-recipe-data": {
+    "url": "https://stardewvalleywiki.com/Modding:Recipe_data",
+    "revision": "193377",
+    "verification": "research-service",
+    "title": "Stardew Valley Wiki · Recipe data",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-gift-data": {
+    "url": "https://stardewvalleywiki.com/Modding:Gift_taste_data",
+    "revision": "189757",
+    "verification": "research-service",
+    "title": "Stardew Valley Wiki · Gift taste data",
+    "verifiedAt": "2026-10-15",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-monster-data": {
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Monster data",
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Modding:Monster_data"
+  },
+  "wiki-schedules": {
+    "revision": "189696",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Schedule data",
+    "verifiedAt": "2026-10-17",
+    "url": "https://stardewvalleywiki.com/Modding:Schedule_data"
+  },
+  "wiki-monsters": {
+    "url": "https://stardewvalleywiki.com/Monsters",
+    "revision": "191503",
+    "verification": "research-service",
+    "title": "Stardew Valley Wiki · Monsters",
+    "verifiedAt": "2026-10-17",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-skull-cavern": {
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Skull Cavern",
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Skull_Cavern"
+  },
+  "wiki-quarry-mine": {
+    "url": "https://stardewvalleywiki.com/Quarry_Mine",
+    "title": "Stardew Valley Wiki · Quarry Mine",
+    "revision": "189349",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-bug-lair": {
+    "url": "https://stardewvalleywiki.com/Mutant_Bug_Lair",
+    "title": "Stardew Valley Wiki · Mutant Bug Lair",
+    "revision": "188479",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-slimes": {
+    "url": "https://stardewvalleywiki.com/Slimes",
+    "title": "Stardew Valley Wiki · Slimes",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-duggy": {
+    "url": "https://stardewvalleywiki.com/Duggy",
+    "title": "Stardew Valley Wiki · Duggy",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-ghost": {
+    "url": "https://stardewvalleywiki.com/Ghost",
+    "title": "Stardew Valley Wiki · Ghost",
+    "revision": "190352",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-grub": {
+    "url": "https://stardewvalleywiki.com/Grub",
+    "title": "Stardew Valley Wiki · Grub",
+    "revision": "190256",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-cave-fly": {
+    "url": "https://stardewvalleywiki.com/Cave_Fly",
+    "title": "Stardew Valley Wiki · Cave Fly",
+    "revision": "191451",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-volcano": {
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · Volcano Dungeon",
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/Volcano_Dungeon"
+  },
+  "wiki-mines": {
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0",
+    "title": "Stardew Valley Wiki · The Mines",
+    "verifiedAt": "2026-10-15",
+    "url": "https://stardewvalleywiki.com/The_Mines"
+  },
+  "wiki-villagers": {
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service",
+    "title": "Stardew Valley Wiki · Villagers",
+    "url": "https://stardewvalleywiki.com/Villagers"
+  },
+  "wiki-museum": {
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service",
+    "title": "Stardew Valley Wiki · Museum",
+    "url": "https://stardewvalleywiki.com/Museum"
+  },
+  "wiki-bundles": {
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service",
+    "title": "Stardew Valley Wiki · Bundles",
+    "url": "https://stardewvalleywiki.com/Bundles"
+  },
+  "wiki-walnut": {
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service",
+    "title": "Stardew Valley Wiki · Golden Walnut",
+    "url": "https://stardewvalleywiki.com/Golden_Walnut"
+  },
+  "wiki-quests": {
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service",
+    "title": "Stardew Valley Wiki · Quests",
+    "url": "https://stardewvalleywiki.com/Quests"
+  },
+  "wiki-buildings": {
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0",
+    "url": "https://stardewvalleywiki.com/Carpenter%27s_Shop",
+    "title": "Stardew Valley Wiki · Carpenter's Shop"
+  },
+  "wiki-machines": {
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service",
+    "license": "CC BY-NC-SA 3.0",
+    "url": "https://stardewvalleywiki.com/Modding:Machines",
+    "title": "Stardew Valley Wiki · Machine data"
+  },
+  "wiki-wood": {
+    "url": "https://stardewvalleywiki.com/Wood",
+    "title": "Stardew Valley Wiki · Wood",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-hardwood": {
+    "url": "https://stardewvalleywiki.com/Hardwood",
+    "title": "Stardew Valley Wiki · Hardwood",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-fiber": {
+    "url": "https://stardewvalleywiki.com/Fiber",
+    "title": "Stardew Valley Wiki · Fiber",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-mastery": {
+    "title": "Stardew Valley Wiki · Mastery Cave",
+    "verification": "research-service",
+    "url": "https://stardewvalleywiki.com/Mastery_Cave",
+    "revision": "191046",
+    "verifiedAt": "2026-10-16",
+    "license": "CC BY-NC-SA 3.0"
+  },
+  "wiki-achievements": {
+    "title": "Stardew Valley Wiki · Achievements",
+    "url": "https://stardewvalleywiki.com/Achievements",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-books": {
+    "title": "Stardew Valley Wiki · Books",
+    "url": "https://stardewvalleywiki.com/Books",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-giant-stump": {
+    "title": "Stardew Valley Wiki · Giant Stump",
+    "url": "https://stardewvalleywiki.com/Giant_Stump",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-marriage": {
+    "title": "Stardew Valley Wiki · Marriage",
+    "url": "https://stardewvalleywiki.com/Marriage",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-stardrop-tea": {
+    "title": "Stardew Valley Wiki · Stardrop Tea",
+    "url": "https://stardewvalleywiki.com/Stardrop_Tea",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-event-data": {
+    "title": "Stardew Valley Wiki · Event conditions",
+    "url": "https://stardewvalleywiki.com/Modding:Event_data",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-game-queries": {
+    "title": "Stardew Valley Wiki · Game state queries",
+    "url": "https://stardewvalleywiki.com/Modding:Game_state_queries",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-16",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-festivals": {
+    "title": "Stardew Valley Wiki · Festivals",
+    "url": "https://stardewvalleywiki.com/Festivals",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-egg-festival": {
+    "title": "Stardew Valley Wiki · Egg Festival",
+    "url": "https://stardewvalleywiki.com/Egg_Festival",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-desert-festival": {
+    "title": "Stardew Valley Wiki · Desert Festival",
+    "url": "https://stardewvalleywiki.com/Desert_Festival",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-flower-dance": {
+    "title": "Stardew Valley Wiki · Flower Dance",
+    "url": "https://stardewvalleywiki.com/Flower_Dance",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-luau": {
+    "title": "Stardew Valley Wiki · Luau",
+    "url": "https://stardewvalleywiki.com/Luau",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-trout-derby": {
+    "title": "Stardew Valley Wiki · Trout Derby",
+    "url": "https://stardewvalleywiki.com/Trout_Derby",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-squidfest": {
+    "title": "Stardew Valley Wiki · SquidFest",
+    "url": "https://stardewvalleywiki.com/SquidFest",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-dance-of-the-moonlight-jellies": {
+    "title": "Stardew Valley Wiki · Dance of the Moonlight Jellies",
+    "url": "https://stardewvalleywiki.com/Dance_of_the_Moonlight_Jellies",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-stardew-valley-fair": {
+    "title": "Stardew Valley Wiki · Stardew Valley Fair",
+    "url": "https://stardewvalleywiki.com/Stardew_Valley_Fair",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-spirit-s-eve": {
+    "title": "Stardew Valley Wiki · Spirit's Eve",
+    "url": "https://stardewvalleywiki.com/Spirit's_Eve",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-festival-of-ice": {
+    "title": "Stardew Valley Wiki · Festival of Ice",
+    "url": "https://stardewvalleywiki.com/Festival_of_Ice",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-night-market": {
+    "title": "Stardew Valley Wiki · Night Market",
+    "url": "https://stardewvalleywiki.com/Night_Market",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-feast-of-the-winter-star": {
+    "title": "Stardew Valley Wiki · Feast of the Winter Star",
+    "url": "https://stardewvalleywiki.com/Feast_of_the_Winter_Star",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-leo": {
+    "title": "Stardew Valley Wiki · Leo",
+    "url": "https://stardewvalleywiki.com/Leo",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-modding-quest-data": {
+    "title": "Stardew Valley Wiki · Modding:Quest data",
+    "url": "https://stardewvalleywiki.com/Modding%3AQuest_data",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-saves": {
+    "title": "Stardew Valley Wiki · Saves",
+    "url": "https://stardewvalleywiki.com/Saves",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-pelican-town": {
+    "title": "Stardew Valley Wiki · Pelican Town",
+    "url": "https://stardewvalleywiki.com/Pelican_Town",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-the-mountain": {
+    "title": "Stardew Valley Wiki · The Mountain",
+    "url": "https://stardewvalleywiki.com/The_Mountain",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-cindersap-forest": {
+    "title": "Stardew Valley Wiki · Cindersap Forest",
+    "url": "https://stardewvalleywiki.com/Cindersap_Forest",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-the-beach": {
+    "title": "Stardew Valley Wiki · The Beach",
+    "url": "https://stardewvalleywiki.com/The_Beach",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-secret-woods": {
+    "title": "Stardew Valley Wiki · Secret Woods",
+    "url": "https://stardewvalleywiki.com/Secret_Woods",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-ginger-island": {
+    "title": "Stardew Valley Wiki · Ginger Island",
+    "url": "https://stardewvalleywiki.com/Ginger_Island",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-mastery-cave": {
+    "title": "Stardew Valley Wiki · Mastery Cave",
+    "url": "https://stardewvalleywiki.com/Mastery_Cave",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-the-sewers": {
+    "title": "Stardew Valley Wiki · The Sewers",
+    "url": "https://stardewvalleywiki.com/The_Sewers",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-reviewed-qi-s-walnut-room": {
+    "title": "Stardew Valley Wiki · Qi's Walnut Room",
+    "url": "https://stardewvalleywiki.com/Qi's_Walnut_Room",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-17",
+    "verification": "research-service"
+  },
+  "wiki-polish-saves": {
+    "title": "Stardew Valley Wiki · Saves",
+    "url": "https://stardewvalleywiki.com/Saves",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-polish-animals": {
+    "title": "Stardew Valley Wiki · Animals",
+    "url": "https://stardewvalleywiki.com/Animals",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-prices-quality": {
+    "title": "Stardew Valley Wiki · Crops · quality",
+    "url": "https://stardewvalleywiki.com/Crops#Crop_Quality",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-prices-professions": {
+    "title": "Stardew Valley Wiki · Skills · professions",
+    "url": "https://stardewvalleywiki.com/Skills#Farming",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-vanilla-recipe-quest": {
+    "title": "Stardew Valley Wiki · Quest data · native recipe tracking",
+    "url": "https://stardewvalleywiki.com/Modding:Quest_data",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-price-wine": {
+    "title": "Stardew Valley Wiki · Wine",
+    "url": "https://stardewvalleywiki.com/Wine",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-price-smoked": {
+    "title": "Stardew Valley Wiki · Smoked Fish",
+    "url": "https://stardewvalleywiki.com/Smoked_Fish",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-price-dried": {
+    "title": "Stardew Valley Wiki · Dried Fruit",
+    "url": "https://stardewvalleywiki.com/Dried_Fruit",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-price-mayo": {
+    "title": "Stardew Valley Wiki · Mayonnaise",
+    "url": "https://stardewvalleywiki.com/Mayonnaise",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-price-cooking": {
+    "title": "Stardew Valley Wiki · Cooking · Qi Seasoning",
+    "url": "https://stardewvalleywiki.com/Cooking#Qi_Seasoning",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-price-margins": {
+    "title": "Stardew Valley Wiki · Multiplayer · profit margins",
+    "url": "https://stardewvalleywiki.com/Multiplayer#Profit_Margins",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  },
+  "wiki-price-artisan": {
+    "title": "Stardew Valley Wiki · Artisan Goods",
+    "url": "https://stardewvalleywiki.com/Artisan_Goods",
+    "license": "CC BY-NC-SA 3.0",
+    "verifiedAt": "2026-10-18",
+    "verification": "research-service"
+  }
+}
