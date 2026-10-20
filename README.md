@@ -58,8 +58,12 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 - Review progress and jump directly into missing collection entries or useful next steps.
 - Find upcoming birthdays, festivals, seasonal fish opportunities and planting deadlines.
 - Keep personal tasks tied to the in-game calendar, including recurring tasks.
-- Use **Seasonal Planner** to switch seasons, browse missing fish, inspect crop calendars and prepare birthday gifts; future weather remains unknown.
 - Switch farms without mixing their plans or saved state.
+
+<p align="center">
+  <img src="docs/assets/dashboard.png" alt="Dashboard with the synthetic Sunbeam farm, saved date and upcoming opportunities" width="100%" />
+  <br /><sub>A farm overview and a game-date agenda, using demo progress.</sub>
+</p>
 
 ### ✨ 02 · Perfection & collection progress
 
@@ -70,6 +74,11 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 - Keep recipe knowledge, item ownership and completed actions separate: owning a dish does not prove it was cooked.
 - Handle version-specific 1.5/1.6 rules, supported multiplayer evidence and separate waiver points. Unsupported or absent information remains unknown.
 
+<p align="center">
+  <img src="docs/assets/perfection.png" alt="Perfection screen showing eleven criteria, cooking progress and completion filters" width="100%" />
+  <br /><sub>Inspect every Perfection criterion and the evidence behind missing entries.</sub>
+</p>
+
 ### 🏆 03 · Steam achievement companion
 
 - Browse the observed **49-achievement official Steam catalog** with guidance and farm evidence.
@@ -77,6 +86,11 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 - Optionally verify a public Steam profile and download official achievement icons for offline reuse.
 - Filter completed, incomplete and unknown entries without treating unavailable evidence as failure.
 - Keep Steam interaction read-only: Companion does not unlock or write achievements to your account.
+
+<p align="center">
+  <img src="docs/assets/steam-achievements.png" alt="Steam Achievements screen with achievement filters and separate evidence states" width="100%" />
+  <br /><sub>Steam unlocks, save evidence and manual marks remain separate.</sub>
+</p>
 
 ### 📋 04 · Smart Planner & material preparation
 
@@ -89,6 +103,11 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 - Jump from a required material to Storage Finder to look for matching supplies.
 - Reconcile supported completion evidence after a later scan, including progress made while Companion was closed.
 
+<p align="center">
+  <img src="docs/assets/smart-planner.png" alt="Smart Planner with sample goals, remaining steps and material preparation" width="100%" />
+  <br /><sub>Turn goals into concrete next steps without counting the same materials twice.</sub>
+</p>
+
 ### 🔌 05 · Optional game connection & journal tasks
 
 - Launch the supported game through Companion using its bundled connection; a separate SMAPI/mod installation is not required.
@@ -100,7 +119,27 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 
 **Connection scope:** Windows, vanilla Stardew Valley **1.6.15**, single-player. Live evidence stays separate from saved evidence. The connection can change game memory; normal saving remains the game's responsibility. [Connection guide →](docs/CONNECTION_DESIGN_STORAGE.md)
 
-### 🗺️ 06 · Farm Designer
+<p align="center">
+  <img src="docs/assets/game-connection.png" alt="Optional live game connection panel with supported goals and launch controls" width="100%" />
+  <br /><sub>The optional connection panel is shown disconnected; no real game session is running in this demo.</sub>
+</p>
+
+### 🌦️ 06 · Seasonal Planner
+
+- Switch between spring, summer, fall and winter to prepare for a different season.
+- Browse seasonal fishing opportunities and filter fish missing from the selected farmer's collection.
+- Inspect each route's location, time window, method and weather requirement.
+- Read crop calendars, standard planting deadlines and relevant preparation advice.
+- Check birthdays for the season and open a villager's field notes to prepare a gift.
+
+Future weather, current access and equipment still need checking in game.
+
+<p align="center">
+  <img src="docs/assets/seasonal-planner.png" alt="Seasonal Planner showing fall opportunities, fishing conditions and the planning-season selector" width="100%" />
+  <br /><sub>Plan around the season instead of searching through every collection entry.</sub>
+</p>
+
+### 🗺️ 07 · Farm Designer
 
 - Work with **all eight vanilla layouts**: Standard, Riverland, Forest, Hill-top, Wilderness, Four Corners, Beach and Meadowlands.
 - Browse object, building and crop palettes on original game maps.
@@ -112,7 +151,12 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 
 **Transfer boundary:** building and crop layouts remain design-only. Supported transfers use guarded inventory/recipe rules; this is not unrestricted world editing. [Design controls and limits →](docs/DESIGN_WORKSPACE.md)
 
-### 🪑 07 · Home Designer
+<p align="center">
+  <img src="docs/assets/farm-designer.png" alt="Expanded Farm Designer with original map, placement palette and editing controls" width="100%" />
+  <br /><sub>A full map workspace for layouts, placement tools and saved designs.</sub>
+</p>
+
+### 🪑 08 · Home Designer
 
 - Plan furniture in **six base home templates**, including upgraded homes, spouse-room variants and the cellar.
 - Search installed furniture by type and use its native footprint and artwork.
@@ -121,7 +165,12 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 
 **Home designs stay inside Companion.** Furniture transfer/rotation, renovation reconstruction, wallpaper and flooring editing are not implemented.
 
-### 📦 08 · Storage Finder
+<p align="center">
+  <img src="docs/assets/home-designer.png" alt="Expanded Home Designer showing the kitchen-upgrade template and original furniture palette" width="100%" />
+  <br /><sub>Use native furniture footprints and artwork in a separate home-design workspace.</sub>
+</p>
+
+### 📦 09 · Storage Finder
 
 - Search saved chests, fridges and supported containers by item.
 - Inspect item totals, stack quantities, quality and selected-farmer inventory separately.
@@ -132,7 +181,12 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 
 **Storage reflects the last game save**, not live inventory. Labels follow container addresses and should be checked after moving a chest.
 
-### 📚 09 · Offline encyclopedia & item reference
+<p align="center">
+  <img src="docs/assets/storage-finder.png" alt="Storage Finder with a demo chest, item quality and quantities, and a saved map marker" width="100%" />
+  <br /><sub>Find supplies and their saved locations; storage updates after the game saves.</sub>
+</p>
+
+### 📚 10 · Offline encyclopedia & item reference
 
 - Search **77 bundled guides**, supplemented by supported installed-data guides for recipes, crops, forage, buildings and machines.
 - Explore ingredients, unlock requirements, acquisition routes and preparation steps.
@@ -141,7 +195,12 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 - Compare supported quality/sell-price values, professions and ingredient-dependent artisan pricing.
 - Follow source links and distinguish installed-game data from authored guidance.
 
-### 🎣 10 · Fishing, maps & exploration
+<p align="center">
+  <img src="docs/assets/encyclopedia.png" alt="Offline encyclopedia with searchable collection guides, categories and original item icons" width="100%" />
+  <br /><sub>Browse game references, recipe requirements and collection guides in one place.</sub>
+</p>
+
+### 🎣 11 · Fishing, maps & exploration
 
 - Filter fish by season, region and method.
 - Read each route's time windows, weather, fishing level and access requirements.
@@ -151,33 +210,84 @@ Stardew Companion turns your local **Stardew Valley save** into a practical fiel
 
 Map markers and static routes are references; they do not prove that a region is unlocked, a tile is fishable or a live path is clear.
 
-### 💜 11 · Villagers, gifts & combat guides
+<p align="center">
+  <img src="docs/assets/fishing.png" alt="Fishing browser with seasonal and location filters, route conditions and catch statuses" width="100%" />
+  <br /><sub>Each fishing route keeps its season, time, weather and access requirements together.</sub>
+</p>
+
+### 💜 12 · Villagers, gifts & schedules
 
 - Browse villager portraits, saved heart progress, relationship caps and locked heart slots.
 - Check **34 birthdays** and five gift preference classes.
 - Inspect selected-farmer talk/gift counters when present in the save.
 - Read **31 installed schedules** with stops linked to map coordinates.
-- Review monster profiles, reference locations/floor bands, loot rolls and combat advice.
-- Track saved eradication targets and associated rewards.
 
-### 🎪 12 · Festivals & the completionist's checklist
+<p align="center">
+  <img src="docs/assets/villagers.png" alt="Character browser with original villager portraits, saved hearts, birthdays and sorting controls" width="100%" />
+  <br /><sub>Plan gifts, check relationship progress and find schedule references.</sub>
+</p>
+
+### ⚔️ 13 · Monster profiles & eradication goals
+
+- Browse monster profiles with original artwork and supported variants.
+- Filter reference locations and inspect documented floor bands where available.
+- Read combat advice, base stats and possible loot rolls.
+- Track supported saved kill counts, eradication targets and their rewards.
+- Open individual monster guides for encounter and preparation details.
+
+Reference locations do not track a monster's live position or reconstruct generated mine floors.
+
+<p align="center">
+  <img src="docs/assets/monsters.png" alt="Monster browser with original monster artwork, location filters and saved eradication progress" width="100%" />
+  <br /><sub>Prepare for combat and review the saved evidence behind eradication targets.</sub>
+</p>
+
+### 🎪 14 · Festival guides & preparation
 
 - Explore **12 illustrated festival guides** with preparation tasks, shopping/contest advice and year-specific map references.
+- Review dates, preparation checklists and shopping or contest opportunities.
+- Open year-specific original map references and individual source links.
+- Add festival preparation steps as personal planner tasks.
+
+<p align="center">
+  <img src="docs/assets/festivals.png" alt="Festival guide with season filters, preparation advice and event details" width="100%" />
+  <br /><sub>Prepare for the occasion with festival-specific field notes and checklists.</sub>
+</p>
+
+### 🏅 15 · Completionist's checklist
+
 - Inspect museum donations, saved/remixed Community Center bundles and offering choices.
 - Review **130 Golden Walnuts across 69 evidence groups**, with collection hints that may contain spoilers.
 - Inspect saved quest journals and add supported collection objectives to the planner.
 - Keep these extra collections distinct from official Perfection and Steam account unlocks.
 
-### 💾 13 · Save Manager, recovery & personalization
+<p align="center">
+  <img src="docs/assets/completionist.png" alt="Completionist screen separating official Perfection, Steam records, personal tasks and extra collections" width="100%" />
+  <br /><sub>Museum donations, bundles, walnuts and journal objectives have their own evidence.</sub>
+</p>
+
+### 💾 16 · Save Manager
 
 - Discover saves automatically, add custom directories or import a full save file.
 - Watch for completed save writes with stable-read retries and clear synchronization errors.
 - Keep plans, preferences, designs and progress summaries in local SQLite storage.
+
+<p align="center">
+  <img src="docs/assets/save-manager.png" alt="Save Manager showing a synthetic farm, save selection, read-only synchronization and watched directories" width="100%" />
+  <br /><sub>Discover farms, switch saves and keep a clear view of synchronization.</sub>
+</p>
+
+### ⚙️ 17 · Settings, recovery & personalization
+
 - Export application backups, preview a selective restoration and undo the latest restore through its recovery record.
 - Recover individual sections after an error and export sanitized diagnostics.
-- Choose among **12 interface languages**, adjust text size and use visible keyboard focus/navigation.
+- Adjust text size, reduce motion and use visible keyboard focus/navigation.
+- Choose or reload the installed-game artwork source and review local application preferences.
 
-English/Turkish coverage is broader; other languages and long guides remain partially translated, with English fallbacks. Twelve selectable languages does not mean twelve complete translations.
+<p align="center">
+  <img src="docs/assets/settings.png" alt="Settings screen showing application backup controls, local preferences and display options" width="100%" />
+  <br /><sub>Back up application state, restore selected sections and customize the interface.</sub>
+</p>
 
 ## 🚀 Download & start farming
 
@@ -333,3 +443,25 @@ An **unofficial fan project**, with no endorsement by ConcernedApe or Valve.
 ---
 
 <p align="center"><strong>One more goal. One more season. A little more room to enjoy your farm.</strong><br /><a href="https://github.com/abisumbra/stardew-companion/releases/tag/v1.0.0">Get Stardew Companion 1.0.0</a></p>
+
+
+## 🌐 Supported languages
+
+Choose a language from the interface language selector. The available options are:
+
+| Language | Native name | Code |
+| --- | --- | --- |
+| English | English | `en` |
+| Turkish | Türkçe | `tr` |
+| German | Deutsch | `de` |
+| Spanish | Español | `es` |
+| French | Français | `fr` |
+| Hungarian | Magyar | `hu` |
+| Italian | Italiano | `it` |
+| Japanese | 日本語 | `ja` |
+| Korean | 한국어 | `ko` |
+| Portuguese (Brazil) | Português (Brasil) | `pt` |
+| Russian | Русский | `ru` |
+| Chinese (Simplified) | 简体中文 | `zh` |
+
+**Translation coverage varies.** English and Turkish have broader authored coverage; the other languages and some long/generated guides use English fallbacks. Installed-game terminology is used where available. Twelve selectable languages does not mean twelve complete translations.
